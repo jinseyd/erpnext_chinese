@@ -7821,7 +7821,6 @@ Barcode,条码
 Barcode {0} is not a valid {1} code,条码{0}不是有效的{1}代码
 Barcode {0} already used in Item {1},条码{0}已被物料{1}使用
 Barcode Type,条码类型
-Incoming,Incoming
 Source,来源
 Source Name,来源名称
 Source Type,来源类型
@@ -9317,7 +9316,7 @@ Benefit,福利
 Benefits Applied,福利
 Benefit Type and Amount,福利类型和金额
 Claim Benefit For,福利类型（薪资构成）
-Off,离
+Off,离线
 Clutch Plate,离合器压盘
 Away,离开
 Left this conversation,离开了这个谈话
@@ -9654,9 +9653,9 @@ Accumulated Values,累积值
 Is Cumulative,累计值
 Accumulated Depreciation,累计折旧
 Accumulated Depreciation as on,累计折旧
-Opening Accumulated Depreciation,累计折旧
+Opening Accumulated Depreciation,已提折旧
 Accumulated Depreciation - ,累计折旧
-Opening Accumulated Depreciation must be less than equal to {0},累计折旧必须小于等于{0}
+Opening Accumulated Depreciation must be less than equal to {0},已提折旧必须小于等于{0}
 Accumulated Depreciation Account,累计折旧科目
 Accumulated Depreciation Amount,累计折旧额
 Income Tax Slab,累进税率表
@@ -17287,3 +17286,7 @@ Kanban Settings,看板设置
 Delete Kanban Board,删除看板
 Idle,闲置
 Off,停机,Workstation
+Floor Name,车间名
+Opening Number of Booked Depreciations,已提折旧期数
+Please set Opening Number of Booked Depreciations,请填写已提折旧期数
+Row {0}: Total Number of Depreciations cannot be less than or equal to Opening Number of Booked Depreciations,第 {0} 行:总折旧期数不可小于或等于已提折旧期数
