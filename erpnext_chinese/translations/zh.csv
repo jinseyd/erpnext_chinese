@@ -4142,7 +4142,7 @@ Discount (%) on Price List Rate with Margin,基于含上浮标价的折扣（％
 This is based on transactions against this Customer. See timeline below for details,基于客户的过往交易。详情请参阅表单下方日志记录
 Salary Slip Based on Timesheet,基于工时表
 Backflush raw materials from work-in-progress warehouse,从车间仓耗用(倒扣账)原材料
-Variable Based On Taxable Salary,基于应纳税工资的变量
+Variable Based On Taxable Salary,基于应纳税工资浮动
 Bank Statement balance as per General Ledger,总账银行余额
 Qty of raw materials will be decided based on the qty of the Finished Goods Item,基于成品数量计算原材料数量
 Filter based on Cost Center is only applicable if Budget Against is selected as Cost Center,基于成本中心过滤仅适用于维护了预算成本中心的情况
@@ -5451,8 +5451,8 @@ Application Settings,应用程序设置
 App Access Key,应用程序访问密钥
 App Type,应用类型
 Apply Rule On Item Code,动态定价规则适用的物料号
-Taxable Salary Slab,应税工资累进税率表
-Taxable Salary Slabs,应税工资累进税率表
+Taxable Salary Slab,应税工资税率表
+Taxable Salary Slabs,应税工资税率表
 Total Taxable Value,应税总额
 Taxable Amount,应税金额
 Total Taxable Amount,应纳税总额
@@ -9658,7 +9658,7 @@ Accumulated Depreciation - ,累计折旧
 Opening Accumulated Depreciation must be less than equal to {0},已提折旧必须小于等于{0}
 Accumulated Depreciation Account,累计折旧科目
 Accumulated Depreciation Amount,累计折旧额
-Income Tax Slab,累进税率表
+Income Tax Slab,个税税率表
 Corrective/Preventive,纠正/预防
 Corrective,纠正
 Red,红色
@@ -13974,7 +13974,7 @@ Create Salary Slip,新增工资条
 Assign Salary Structure,分派薪资结构
 Create Salary Structure,新增薪资结构
 Create Salary Component,新增薪资构成
-Create Income Tax Slab,新建累进税率表
+Create Income Tax Slab,新建个税税率表
 Create and Send Quotation,新增和发送报价
 Create Lead,新建线索
 Learn about Web Pages,学习网页知识
@@ -15986,7 +15986,7 @@ Define Opening Balance for Earning and Deductions,定义收入与扣除期初数
 Process Payroll Accounting Entry based on Employee,应付工资按员工记账
 "If checked, Payroll Payable will be booked against each employee",如勾选，应付工资按员工记账
 "If enabled, total no. of working days will include holidays, and this will reduce the value of Salary Per Day",如勾选，总工作日包括假期，日工资则相应减少
-"If checked, then the system will enable the provision to set the opening balance for earnings and deductions till date while creating a Salary Structure Assignment (if any)",如勾选，系统会允许设置期初收与扣除
+"If checked, then the system will enable the provision to set the opening balance for earnings and deductions till date while creating a Salary Structure Assignment (if any)",如勾选，系统会允许设置期初收入与扣除
 Employee Naming By,员工号编号规则
 Employee records are created using the selected option,员工号会基于选择的规则自动生成
 Retirement Age (In Years),退休年龄
@@ -16175,7 +16175,7 @@ Card Links,卡片链接
 Disable Comment Count,禁用评论计数
 Errors Notification,出错通知
 Notify Reposting Error to Role,接收成本追溯调整出错通知的角色
-Previous Year is not closed, please close it first,请先关闭以前财年。
+"Previous Year is not closed, please close it first",请先关闭以前财年。
 Books have been closed till the period ending on {0},截止到 {0} 的会计记账已关闭
 You cannot create/amend any accounting entries till this date.,不允许创建/修改早于此日期的会计凭证
 Period Closed,会计期间已关闭
@@ -17290,3 +17290,37 @@ Floor Name,车间名
 Opening Number of Booked Depreciations,已提折旧期数
 Please set Opening Number of Booked Depreciations,请填写已提折旧期数
 Row {0}: Total Number of Depreciations cannot be less than or equal to Opening Number of Booked Depreciations,第 {0} 行:总折旧期数不可小于或等于已提折旧期数
+Total Number of Booked Depreciations,总已折旧期数
+Left,已离职,Employee
+Is Commission,是提成
+"If enabled, the component will be considered as a tax component and the amount will be auto-calculated as per the configured income tax slabs","如勾选，该构成为个税相关，金额将根据配置的个税税率表自动计算"
+Statistical Component,是统计项,
+"If enabled, the component will be considered in the Income Tax Deductions report",如勾选，该构成将计入所得税扣除
+Is Income Tax Component,是所得税相关,
+Exempted from Income Tax,是税前扣除,
+"If checked, the full amount will be deducted from taxable income before calculating income tax without any declaration or proof submission.",如勾选，则本构成项为无需员工免税申报或免税证明的税前扣除项,
+Gross Year To Date,累计工资总额
+Income Tax Slab,个税税率表,
+Income Tax Slab Other Charges,个税税率表其他费用,
+Income Tax Slab not set in Salary Structure Assignment: {0},未在薪资结构分配中设置个税税率表：{0},
+Base,基本工资,Salary Structure Assignment
+Varialbe,浮动工资,Salary Structure Assignment 
+No employees found,未找到满足条件的员工
+"No employees found for the mentioned criteria:<br>Company: {0}<br> Currency: {1}<br>Payroll Payable Account: {2}",未找到满足以下条件的员工:<br>公司: {0}<br> 货币: {1}<br>应付工资科目: {2}
+Branch: {0},分支机构: {0}
+Department: {0},部门: {0}
+Designation: {0},职位: {0}
+Start date: {0},开始日期: {0}
+End date: {0},结束日期: {0}
+Salary Slip already exists for {0} for the given dates,该日期的工资单 {0} 已经存在了
+Reference: {0},参考 {0}
+Duplicate Entry,重复记录
+Salary Slip {0} failed. You can resolve the {1} and retry {0}.,工资单 {0} 出错了。请解决 {1} 后重新 {0}。
+Failure Details,出错信息
+Accounts not set for Salary Component {0},请为薪资构成项 {0} 分派科目
+Sync Condition,同步条件
+Sync Formula,同步公式
+Is Recurring Additional Salary,是自动重复的额外薪水
+Salary Slips submitted for period from {0} to {1},期间：{0} - {1} 的工资单已提交
+Could not submit some Salary Slips: {},部分工资单 {} 未提交
+Additional Salary ,额外薪水

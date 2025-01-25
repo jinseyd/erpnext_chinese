@@ -38,4 +38,3 @@ erpnext_chinese/templates/__init__.py
 erpnext_chinese/templates/pages/__init__.py
 erpnext_chinese/templates/pages/__pycache__/__init__.py
 erpnext_chinese/translations/zh.csv
-erpnext_chinese/translations/zh1.csv
