@@ -2089,7 +2089,7 @@ Before Save,保存前
 chapters/chapter_nameleave blank automatically set after saving chapter.,保存协会后自动设置协会名称。
 After Save,保存后
 Workflow will start after saving.,保存后的工作流将启动。
-Net Pay (in words) will be visible once you save the Salary Slip.,保存工资单后会显示净支付金额(大写)。
+Net Pay (in words) will be visible once you save the Salary Slip.,保存工资单后会显示实付金额(大写)。
 Saved Successfully,保存成功
 Save Report,保存报表
 Save Filter,保存过滤条件
@@ -2304,6 +2304,7 @@ FIFO,先进先出
 LIFO,后进先出
 Exemption Sub Category,免税子类别
 Total Exemption Amount,免税总额
+Total Exemption,免税总额
 Exemption Category,免税类别
 Tax Exemption Category,免税类别
 Tax Exemption Proofs,免税证明
@@ -2525,9 +2526,9 @@ net pay info,净工资信息
 Net Salary Amount,净工资金额
 Net Total,净总计
 Net Profit/Loss,净损益
-Net Pay,净支付金额
-Net pay cannot be negative,净支付金额不能为负数
-Net Pay cannnot be negative,净薪酬不能为负
+Net Pay,实付金额
+Net pay cannot be negative,实付金额不能为负数
+Net Pay cannnot be negative,实付金额不能为负数
 Net Weight,净重
 Net Weight UOM,净重单位
 Net Amount (Company Currency),净额（本币）
@@ -4175,7 +4176,7 @@ Return Against Sales Invoice,源销售发票
 This is based on the Time Sheets created against this project,基于项目工时表
 Fetch items based on Default Supplier.,基于默认供应商选物料
 Base Hour Rate(Company Currency),基准工费率（本币）
-Basic,基本的
+Basic,基本工资
 Base Distinguished Name (DN),基本专有名称（DN）
 Base,基本
 Basic Component,基本组件
@@ -7895,6 +7896,7 @@ Price List Rate (Company Currency),标价（本币）
 Criteria,标准
 Standard,标准
 Standard Tax Exemption Amount,标准免税额
+Standard Tax Exemption,标准免税额
 Criteria Name,标准名称
 Basic Rate,标准售价
 Standard Selling Rate,标准售价
@@ -11469,7 +11471,7 @@ Conversion Factor,转换系数
 retweet,转推
 Transfer,调拨
 Transfered,已调拨
-Material Transferred for Subcontract,已发委外原材料
+Material Transferred for Subcontract,委外发料
 Qty to Transfer,调拨数量
 Transfer Qty,调拨数量
 Transferred Quantity,调拨数量
@@ -15904,7 +15906,7 @@ Auto follow documents that you comment on,自动关注你评论的单据
 Auto follow documents that you Like,自动关注你喜欢的单据
 Auto follow documents that are assigned to you,自动关注分派给你的单据
 Auto follow documents that are shared with you,自动关注分享给你的单据
-Reserved Stock,预留库存
+Reserved Stock,已预留库存
 Show Disabled Warehouses,显示已禁用仓库
 "If enabled, the system will create material requests even if the stock exists in the 'Raw Materials Warehouse'.","如勾选，即使'原材料仓'有库存系统也会创建物料需求"
 Helpdesk,服务台
@@ -16831,7 +16833,7 @@ Reservation Based On,预留类型
 Voucher Qty,单据数量
 Available Qty to Reserve,可预留数量
 Unreserve,取消预留
-Reserve,取消预留
+Reserve,预留
 {0} As {1} units are reserved for other sales orders, you are allowed to consume only {2} units.,{0} 因其它销售订单已预留了数量 {1}，剩余可耗用数量为 {2}
 {0} As the full stock is reserved for other sales orders, you're not allowed to consume the stock., {0} 因现有数量被其它销售订单预留，无可耗用数量
 Is Rejected Warehouse,是拒收仓
@@ -17076,7 +17078,7 @@ Enabling this ensures each Purchase Invoice has a unique value in Supplier Invoi
 Rate Section,成本价信息
 Finished Goods based Operating Cost,启用计件成本
 Raw Materials Actions,委外原材料表操作
-Reset Raw Material Table,重置委外原材料表
+Reset Raw Materials Table,重置委外原材料表
 Please select either the Item or Warehouse or Warehouse Type filter to generate the report.,因数据量较大，请输入物料编号、仓库、仓库类型任一过滤条件。
 Skipped,已跳过
 Background Jobs Queue,后台任务队列
@@ -17324,3 +17326,25 @@ Is Recurring Additional Salary,是自动重复的额外薪水
 Salary Slips submitted for period from {0} to {1},期间：{0} - {1} 的工资单已提交
 Could not submit some Salary Slips: {},部分工资单 {} 未提交
 Additional Salary ,额外薪水
+Job Worker,委外供应商
+Job Worker Name,委外供应商名
+Job Worker Warehouse,委外仓库
+Job Worker Contact,委外联系人
+Select Job Worker Address,选择委外地址
+Job Worker Address,委外地址
+Job Worker Address Details,委外地址详情
+Job Worker Delivery Note,委外送货单号
+Item rate has been updated to zero as Allow Zero Valuation Rate is checked for item {0},因勾选了成本价为0，物料 {0} 的单价已设置为0
+Items rate has been updated to zero as Allow Zero Valuation Rate is checked for the following items: {0},因勾选了成本价为0，这些物料 {0} 的单价已设置为0
+Applicable Tax,适用税额
+Total Tax Deducted,已扣税额
+Payable Tax,应交税额
+Production Plan Already Submitted,生产计划已经提交了
+No items are available in the sales order {0} for production,销售订单 {0} 无待生产的物料
+No items are available in sales orders {0} for production,销售订单 {0} 无待生产的物料
+Row #{0}: Stock not available to reserve for the Item {1} in Warehouse {2}.,第 {0} 行:仓库 {2} 中物料 {1}无可预留库存
+Row #{0}: Only {1} available to reserve for the Item {2},第 {0} 行:物料 {2} 可预留库存数量仅有 {1}
+Stock Unreservation,取消预留
+Unreserve Stock,取消预留
+Unreserving Stock...,取消预留中...
+Please select items to unreserve.,请勾选待取消的库存预留
