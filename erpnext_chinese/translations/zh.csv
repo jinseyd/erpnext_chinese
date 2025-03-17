@@ -1101,7 +1101,7 @@ Login not allowed at this time,不允许在这个时候登录
 Multiple root nodes not allowed.,不允许多个根节点。
 Multiple default mode of payment is not allowed,不允许多种默认付款方式
 More than one selection for {0} not allowed,不允许对{0}进行多次选择
-Transaction not allowed against stopped Work Order {0},不允许对停止的工单{0}进行交易
+Transaction not allowed against stopped Work Order {0},生产工单 {0} 已停止，不允许操作
 Not allowed to update stock transactions older than {0},库存变动日期不能早于库存设置-库存变动锁账天数 {0} 限定的最晚可动帐日期
 Not allowed to Import,不允许导入
 Export not allowed. You need {0} role to export.,不允许导出，您没有{0}的角色。
@@ -9504,7 +9504,7 @@ Row #{0}: Posting Date must be same as purchase date {1} of asset {2},第{0}行�
 From value must be less than to value in row {0},第{0}行的起始值必须小于截止值
 Row #{0}: Operation {1} is not completed for {2} qty of finished goods in Work Order # {3}. Please update operation status via Time Logs,第{0}行订单{3}成品数量{2}工序{1}未完成。请在工时记录中更新工序状态
 "Row #{0}: The batch {1} has only {2} qty. Please select another batch which has {3} qty available or split the row into multiple rows, to deliver/issue from multiple batches",第{0}行＃的批号{1}数量只有{2}。请选择数量大于等于{3}的其他批号，或将该行拆分成多行，用多个批号出货/发料
-Row {0} : Operation is required against the raw material item {1},第{0}行，原材料{1}工序信息必填
+Row {0} : Operation is required against the raw material item {1},第{0}行，原材料 {1} 工序信息必填
 Row {0}: {1} must be greater than 0,第{0}行：{1}必须大于0
 Row {0}: Not allowed to disable Mandatory for standard fields,第{0}行：不允许更改系统标准字段的必填属性
 Row {0}: An Reorder entry already exists for this warehouse {1},第{0}行：仓库{1}中已存在重订货记录
@@ -9512,7 +9512,7 @@ Row {0}: Activity Type is mandatory.,第{0}行：作业类型信息必填。
 Row {0}: Debit entry can not be linked with a {1},第{0}行：借方不能与{1}关联
 Row {0}: Invalid reference {1},第{0}行：无效参考{1}
 Row {0}: Hours value must be greater than zero.,第{0}行：时长(小时)须大于零。
-Row {0}: From time must be less than to time,第{0}行：时间开始必须早于结束时间
+Row {0}: From time must be less than to time,第{0}行：开始时间必须早于结束时间
 Row {0}: Quality Inspection rejected for item {1},第{0}行：物料 {1} 被质检拒收
 Row {0}: Please set the correct code on Mode of Payment {1},第{0}行：请在付款方式{1}上设置正确的代码
 Row #{0}: Purchase Invoice cannot be made against an existing asset {1},第{0}行：采购发票不能对现有资产进行{1}
@@ -12882,7 +12882,7 @@ Default Cost of Goods Sold Account,默认销货成本科目
 "Default: ""Contact Us""",默认：“联系我们”
 (including),（包含）
  (Half Day),（半天）
-(Hour Rate / 60) * Actual Operation Time,（小时费率/ 60）*实际工序时间
+(Hour Rate / 60) * Actual Operation Time,（工费率（每小时）/ 60）*实际工序时间
 (Ctrl + G),（按Ctrl + G）
 (Ca+Mg)/K,（钙+镁）/ K
 ) for {0},）为{0}
@@ -14720,7 +14720,7 @@ Always use this name as sender name,使用此用户名作为发件人
 Enabling auto reply on an incoming email account will send automated replies to all the synchronized emails. Do you wish to continue?,启用自动回复将会对所有同步过来的邮件生效，确认继续？
 Allow Continuous Material Consumption,启用工单耗用
 Allow material consumptions without immediately manufacturing finished goods against a Work Order,允许单独记录多次工单耗用后再进行工单入库
-Allow Excess Material Transfer,允许超需求量工单发料
+Allow Excess Material Transfer,允许超需求量发料
 Allow transferring raw materials even after the Required Quantity is fulfilled,允许超工单需求数量发原材料
 Show Remarks,显示备注信息
 "Update BOM cost automatically via scheduler, based on the latest Valuation Rate/Price List Rate/Last Purchase Rate of raw materials",通过后台程序基于原材料最新成本价/标价/采购价自动更新BOM成本,
@@ -14762,8 +14762,8 @@ Production Plan Summary,生产计划汇总报表
 Work Order Tree,生产工单树
 "If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",如勾选，用户每次登录时都弹框通知。否则只弹框通知一次。,
 Go to Notification Settings List,转到通知设置列表
-Sequence Id,并行顺序号,
-Sequence ID,并行顺序号,
+Sequence Id,工序顺序号,
+Sequence ID,工序顺序号,
 Cost Per Unit,单位成本
 Base Cost Per Unit,基础单位成本
 Partly Paid,部分付款
@@ -14994,7 +14994,7 @@ Adjust Asset Value,调整资产价值
 Create Depreciation Entry,创建折旧分录
 you must select Capital Work in Progress Account in accounts table,请在明细表设置在建工程科目,
 You can also set default CWIP account in Company {},您还可以在公司{}主数据中设置默认在建工程科目,
-Enable Capital Work in Progress Accounting,资产入库先记账在建工程科目,
+Enable Capital Work in Progress Accounting,启用在建工程科目,
 Get Supplier Group Details,获取供应商组信息
 Setup failed,始始化失败
 Could not start up: Error in setup,初始化过程有错误
@@ -15898,7 +15898,7 @@ Capitalization Method,资本化方法
 Asset Depreciation Schedule,固定资产折旧计划
 Daily Depreciation,日折旧
 Depreciation Details,折旧详情
-Capitalize Asset,资本化固定资产
+Capitalize Asset,资产资本化
 "Asset Depreciation Schedules created:{0}Please check, edit if needed, and submit the Asset.","已生成资产折旧计划:<br>{0}<br><br>请检查, 必要时请修改后再提交资产, ."
 Reserved Qty for Production Plan,生产计划预留数量
 Auto follow documents that you create,自动关注你创建的单据
@@ -17348,3 +17348,52 @@ Stock Unreservation,取消预留
 Unreserve Stock,取消预留
 Unreserving Stock...,取消预留中...
 Please select items to unreserve.,请勾选待取消的库存预留
+Billing Contact,发票联系人
+Credit Limit Crossed,超信用额度
+Document Types and Permissions,单据类型与权限
+Apply User Permission On,用户权限限制字段（链接单据类型）
+User Id Field,用户链接字段
+Can only list down the document types which has been linked to the User document type.,仅限访问关联了用户（链接字段）的单据类型
+Custom Document Types (Select Permission),被授权链接的单据类型
+Allowed Modules,允许的模块
+Late Entry & Early Exit Settings for Auto Attendance,迟到、早退自动考勤设置
+Enable Late Entry Marking,允许迟到（自动考勤）
+Enable Early Exit Marking,允许早退（自动考勤）
+Mark Auto Attendance on Holidays,允许假期内自动考勤
+"If enabled, auto attendance will be marked on holidays if Employee Checkins exist",勾选后假期内的签入、签出记录也自动生成考勤
+"Last Known Successful Sync of Employee Checkin. Reset this only if you are sure that all Logs are synced from all the locations. Please don't modify this if you are unsure.","员工签到最后一次成功同步的时间。只有在确认所有地点的所有日志都已同步后，才可重置此时间。如果不确定，请不要修改。"
+Bulk Shift Assign,批量分派班次
+Use the new Print Format Builder,启用新打印格式编辑器
+"Only 'Payment Entries' made against this advance account are supported.",仅支持收付款凭证中使用此科目
+"Allow Internal Transfers at Arm's Length Price",
+"If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate.",
+Issue,资产发出,Asset Movement
+Receipt,资产收到,Asset Movement
+Transfer,资产移转,Asset Movement
+"Updated via 'Time Log' (In Minutes)",由工序卡工时记录表自动更新(分钟)
+The Process Loss Qty has reset as per job cards Process Loss Qty,已基于工单工序卡最大制程损耗重置了制程损耗数量
+"{0}, complete the operation {1} before the operation {2}.",{0}，在工序 {2} 前请先完成工序 {1}
+Job Card {0}: As per the sequence of the operations in the work order {1},工序卡 {0}：基于工单 {1} 工序顺序号
+You can't make any changes to Job Card since Work Order is closed.,因生产工单已关闭，工序卡不能再变更
+Please select a Work Order first.,请先选择生产工单
+Extra Job Card Quantity,工序卡数量超计划数量
+The {0} {1} is used to calculate the valuation cost for the finished good {2}.,{0} {1} 用于计算入库成品成本
+Kindly cancel the Manufacturing Entries first against the work order {0}.,请先取消工单入库
+Row #{0}: Cannot transfer more than Required Qty {1} for Item {2} against Job Card {3},第 {0} 行：对工序卡 {3} 发物料 {2} 不可超过需求量 {1}
+Excess Transfer,超发
+Material Transfer (In Transit),直接调拨(在途)
+Capitalize this asset to confirm,资本化该资产后再确认
+Asset {0} has been created. Please set the depreciation details if any and submit it.,资产 {0} 已创建，如需折旧请设置折旧信息后提交资产
+Asset {0} has been updated. Please set the depreciation details if any and submit it.,资产 {0} 已变更，如需折旧请设置折旧信息后提交资产
+Target Incoming Rate,入账单价
+Asset created,资产已创建
+Asset submitted,资产已提交
+Capitalized,已资本化
+Uncapitalized,未资本化
+Decapitalized,已转库存
+Reconciliation Takes Effect On,核销参考日期
+Advance Payment Date,预付款日
+Reconciliation Date,核销日
+Oldest Of Invoice Or Advance,发票与预付款中最早者
+Net Purchase Amount,采购金额（未税）
+Asset transferred to Location {0},资产已转到 {0}
