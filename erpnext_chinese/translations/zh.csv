@@ -8955,7 +8955,7 @@ User {0} already exists,用户{0}已经存在
 User {0} is already assigned to Employee {1},用户{0}已经被分配给员工{1}
 User {0} does not have access to this document,用户{0}无权访问此单据
 User {0} doesn't have any default POS Profile. Check Default at Row {1} for this User.,用户{0}没有任何默认的POS配置文件。检查此用户的行{1}处的默认值。
-User {0} does not have doctype access via role permission for document {1},用户{0}没有通过单据{1}的角色权限访问doctype
+User {0} does not have doctype access via role permission for document {1},角色权限管理中未授权用户 {0} 访问 {1}
 Chat Profile for User {0} exists.,用户{0}的聊天配置文件存在。
 Chat Profile for User {user} exists.,用户{user}的聊天配置文件已存在。
 User '{0}' already has the role '{1}',用户“{0}”已经被分派了角色“{1}”
@@ -14774,7 +14774,7 @@ Query / Script,SQL查询 / Python脚本,
 Total Amount Due,总未付金额
 Update Counter,更新流水号当前值
 New Counter,新值
-Warning: Updating counter may lead to document name conflicts if not done properly,警告：若更新不当会导致新单据与现有单据重复，不能保存
+Updating counter may lead to document name conflicts if not done properly,更新不当会导致新单据与现有单据重复，不能保存
 Update Counter Value for Prefix: {0},为前缀 {0} 更新流水号当前值
 Copy error to clipboard, 将出错日志复制到剪贴板
 Create a Sales Item,创建销售物料
@@ -17397,3 +17397,23 @@ Reconciliation Date,核销日
 Oldest Of Invoice Or Advance,发票与预付款中最早者
 Net Purchase Amount,采购金额（未税）
 Asset transferred to Location {0},资产已转到 {0}
+Placeholder,占位符
+Proceed,继续
+"Validate Components and Quantities Per BOM",工单发料与耗用时强制按物料清单标准用量
+Show Aggregate Value from Subsidiary Companies,显示下属公司合计值
+Show Dimension Wise Stock,按辅助核算分组显示
+Set Operating Cost / Scrap Items From Sub-assemblies,含子装配件工费成本/废料
+"To include sub-assembly costs and scrap items in Finished Goods on a work order without using a job card, when the 'Use Multi-Level BOM' option is enabled.",工单勾选使用多级物料清单但未启用工序卡，成品入库包含子装配件工费成本及废料
+Set Serial and Batch Bundle Naming Based on Naming Series,启用序列号/批号编号模板
+Payment Reconciliation Settings,收付款核销设置
+Auto Reconciliation Job Trigger,自动核销后台任务触发间隔
+Interval should be between 1 to 59 MInutes,间隔在1到59分钟之间
+Reconciliation Queue Size,核销队列大小
+Documents Processed on each trigger. Queue Size should be between 5 and 100,在5到100之间
+Posting Date Inheritance for Exchange Gain / Loss,汇兑损益记账日期
+Only applies for Normal Payments,仅适用正常收付款
+Ignore Is Opening check for reporting,报表中忽略是开账凭证
+Ignores legacy Is Opening field in GL Entry that allows adding opening balance post the system is in use while generating reports,报表中不按是否开账凭证标志获取科目期初余额（为了提升性能）
+Allow Internal Transfers at Arm's Length Price,启用近距离调拨价
+"If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate.",如勾选，内部调拨会生成会计凭证但其成本变动不影响物料成本价
+Fetch Timesheet in Sales Invoice,允许在销售发票获取工时表
