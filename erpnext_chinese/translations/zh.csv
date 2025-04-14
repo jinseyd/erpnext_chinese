@@ -17417,3 +17417,5 @@ Ignores legacy Is Opening field in GL Entry that allows adding opening balance p
 Allow Internal Transfers at Arm's Length Price,启用近距离调拨价
 "If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate.",如勾选，内部调拨会生成会计凭证但其成本变动不影响物料成本价
 Fetch Timesheet in Sales Invoice,允许在销售发票获取工时表
+Qty (Company),数量（公司）
+Qty (Warehouse),数量（仓库）
