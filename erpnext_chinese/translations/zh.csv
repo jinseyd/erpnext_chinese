@@ -2786,8 +2786,8 @@ Create customer quotes,创建客户报价
 Create Timesheet,创建工时表
 Make Timesheet,创建工时表
 Timesheet created:,创建工时表：
-Create Job Card,创建工序卡
-Make Job Card,创建工序卡
+Create Job Card,创建生产任务单
+Make Job Card,创建生产任务单
 Create Salary Slip,创建工资单
 Create Salary Slips,创建工资单
 Make Salary Slip,创建工资单
@@ -4824,7 +4824,7 @@ Start Time can't be greater than or equal to End Time \					for {0}.,对于{0}�
 {0} is required for 'Balance Sheet' account {1}.,对于“资产负债表”类科目{0}{1}必填。
 "For Course based Student Group, the Course will be validated for every Student from the enrolled Courses in Program Enrollment.",对于基于课程的班级，课程将从入学课程中的每个学生确认。
 "In the case of multi-tier program, Customers will be auto assigned to the concerned tier as per their spent",对于多等级积分方案，系统会根据客户消费金额自动匹配相应积分等级
-"For job card {0}, you can only make the 'Material Transfer for Manufacture' type stock entry",对于工序卡{0}，您只能选择“工单发料”类型物料移动
+"For job card {0}, you can only make the 'Material Transfer for Manufacture' type stock entry",对于生产任务单{0}，您只能选择“工单发料”类型物料移动
 For Quantity must be less than quantity {0},对于数量必须小于数量{0}
 Another Budget record '{0}' already exists against {1} '{2}' and account '{3}' for fiscal year {4},对于财年{4}，{1}&#39;{2}&#39;和科目“{3}”已存在另一个预算记录“{0}”
 "For currency {0}, the minimum transaction amount should be {1}",对于货币{0}，最小交易金额应为{1}
@@ -5027,13 +5027,13 @@ Working Hours Calculation Based On,工时计算基准
 Time Logs,工时记录
 Types of activities for Time Logs,工时记录作业类型
 Duration (Days),工期(天）
-For Job Card,工序卡
-Job Card,工序卡
-Job Card Time Log,工序卡工时记录
-"Start date and end date is overlapping with the job card <a href=""#Form/Job Card/{0}"">{1}</a>","工序卡的开始和结束日期<a href=""#Form/Job Card/{0}"">{1}</a>重叠"
-Job Card Item,工序卡明细
-Job Card Operation,工序卡工序
-Job Card For Operations,工序卡（工序管理）
+For Job Card,生产任务单
+Job Card,生产任务单
+Job Card Time Log,生产任务单工时记录
+"Start date and end date is overlapping with the job card <a href=""#Form/Job Card/{0}"">{1}</a>","生产任务单的开始和结束日期<a href=""#Form/Job Card/{0}"">{1}</a>重叠"
+Job Card Item,生产任务单明细
+Job Card Operation,生产任务单工序
+Job Card For Operations,生产任务单（工序管理）
 Engineer,工程师
 Workstation,工站
 Workstation Name,工站名称
@@ -5120,7 +5120,7 @@ Allocated,已分配
 Allocated Leaves,已分配休假天数
 Allocated Amount,已分配金额
 Invoice Created,已创建发票
-Job card {0} created,已创建工序卡{0}
+Job card {0} created,已创建生产任务单{0}
 All bank transactions have been created,已创建所有银行交易流水
 Payment request {0} created,已创建收付款申请{0}
 Work Orders Created: {0},已创建生产工单：{0}
@@ -9494,7 +9494,7 @@ Source and target warehouse cannot be same for row {0},第{0}行中的源和收�
 Course is mandatory in row {0},第{0}行中的课程信息必填
 "Row #{0}: Qty must be 1, as item is a fixed asset. Please use separate row for multiple qty.",第{0}行允许资产类物料，其采购数量必须是1，如须采购多个，请拆分成多行。
 Row #{0}: Rejected Warehouse is mandatory against rejected Item {1},第{0}行物料{1}被拒收，其拒收仓库字段必填
-Row #{0}: Operation {1} is not completed for {2} qty of finished goods in Work Order {3}. Please update operation status via Job Card {4}.,第{0}行生产工单{3}成品数量{2}工序{1}未完成。请在工序卡{4}上更新工序状态。
+Row #{0}: Operation {1} is not completed for {2} qty of finished goods in Work Order {3}. Please update operation status via Job Card {4}.,第{0}行生产工单{3}成品数量{2}工序{1}未完成。请在生产任务单{4}上更新工序状态。
 Row {0}# Paid Amount cannot be greater than requested advance amount,第{0}行的付款金额不能大于预付申请金额
 "Row #{0}: Reference Document Type must be one of Sales Order, Sales Invoice or Journal Entry",第{0}行的源单据类型必须是销售订单或销售发票或日记账凭证
 The Payment Term at row {0} is possibly a duplicate.,第{0}行的支付条款可能是重复的。
@@ -10876,7 +10876,7 @@ Please select an item in the cart,请在购物车中选择一个物料
 Enable Allow Auto Repeat for the doctype Sales Order in Customize Form,请在销售订单的定制表单页面启用允许自动重复
 Please mention no of visits required,请填写巡修次数
 Operations cannot be left blank,请填写工序信息
-Time logs are required for job card {0},请填写工序卡{0}工时记录
+Time logs are required for job card {0},请填写生产任务单{0}工时记录
 Please fill in all the details to generate Assessment Result.,请填写所有详细信息以生成评估结果。
 Clearance Date not mentioned,请填写清账日期
 Manufacturing Quantity is mandatory,请填写生产数量
@@ -11476,7 +11476,7 @@ Qty to Transfer,调拨数量
 Transfer Qty,调拨数量
 Transferred Quantity,调拨数量
 Transfer Material Against,工单发料方式
-Transfer Material Against Job Card,依据工序卡工单发料
+Transfer Material Against Job Card,依据生产任务单工单发料
 Transfer Type,转移类型
 Transfer Asset,转移资产
 Waitlisted,轮候
@@ -12615,7 +12615,7 @@ Name of Consultant,顾问的名字
 Advances,预付
 Advance Paid,预付款
 Advance Payments,预付款
-Advance Amount,预支金额
+Advance Amount,预付金额
 Advance account currency should be same as company currency {0},预付科目货币应与本币{0}相同
 Advance amount,预付金额
 Advance amount cannot be greater than {0} {1},预付金额不能大于{0} {1}
@@ -12960,7 +12960,7 @@ Production Planning Report,生产计划报表
 Work Order Summary,工单进度追踪表
 Quality Inspection Summary,质检进度追踪表
 Downtime Analysis,停机分析
-Job Card Summary,工序卡进度追踪表
+Job Card Summary,生产任务单进度追踪表
 BOM Operations Time,工艺时间
 Choose Dashboard,选择数据面板
 Workstation / Machine,工站/机台
@@ -13546,7 +13546,7 @@ Work In Progress Warehouse,车间仓
 Work Order Analysis,工单分析
 Work Order Qty Analysis,工单数量分析
 Work Order cannot be created for following reason:  {0}, 工单不能创建，原因是<br> {0}
-Work Order {0}: Job Card not found for the operation {1},工单 {0}: Job Card not found 未找到针对工序 {1} 的工序卡
+Work Order {0}: Job Card not found for the operation {1},工单 {0}: Job Card not found 未找到针对工序 {1} 的生产任务单
 Work Orders,工单
 Work in Progress,进行中
 Workflow Status,工作流状态
@@ -14329,7 +14329,7 @@ Default Payment Discount Account,默认付款折扣科目
 Role Allowed to Over Bill,可超额开发票的角色
 Users with this role are allowed to over bill above the allowance percentage,此角色的用户可新建超出容差的发票
 Accounts Frozen Till Date,冻结记账截止日,
-Accounting entries are frozen up to this date. Nobody can create or modify entries except users with the role specified below,以下角色以外的用户不允许新增或修改此日期之前的会计凭证,
+Accounting entries are frozen up to this date. Nobody can create or modify entries except users with the role specified below,非冻结记账管理员角色以外的用户不允许新增或修改此日期之前的会计凭证,
 Role Allowed to Set Frozen Accounts and Edit Frozen Entries,冻结记账管理员角色,
 Users with this role are allowed to set frozen accounts and create / modify accounting entries against frozen accounts,此角色的用户可设置冻结记账截止日及修改冻账日前会计凭证
 Is Short Year,非整年
@@ -14557,9 +14557,9 @@ Link Details,链接详情
 Is Query Report,是查询报表
 Serial No and Batch for Finished Good,成品序列号与批号
 Corrective Operation Cost,返工费用
-From Corrective Job Card,取自返工工序卡
-Corrective Job Card,返工工序卡
-Is Corrective Job Card,是返工工序卡
+From Corrective Job Card,取自返工生产任务单
+Corrective Job Card,返工生产任务单
+Is Corrective Job Card,是返工生产任务单
 ERPNext Chinese,ERPNext本地化
 Min Pack Qty,最小包装量
 Item {0} Qty {1} changed to {2} due to min pack qty {3},基于物料{0}最小包装量{3}定义，系统自动将数量由{1}变更为{2}
@@ -14662,7 +14662,7 @@ Item Price Settings,物料价格设置
 Transaction Settings,业务交易设置
 Calculate Product Bundle Price based on Child Items' Rates,基于套件包含的物料价格计算套件价格
 Publish in Website,发布到网站
-Job Card Scrap Item,工序卡损耗明细
+Job Card Scrap Item,生产任务单损耗明细
 Website Item,网站物料
 Allowed Dimension,可使用的辅助核算
 Party Link,业务伙伴关联
@@ -14757,7 +14757,7 @@ Buying module's features are highly configurable as per your business needs. Buy
 - 采购发票及采购入库设置"
 'If source warehouse selected then system will create the material request with type Material Transfer from Source to Target warehouse. If not selected then will create the material request with type Purchase for the target warehouse.',如果指定转出仓且有相应数量，系统会创建自转出仓至收料仓调拨类型的物料需求，否则将针对收料仓创建采购类型的物料需求
 Work Order / Subcontract PO,生产工单 / 委外采购订单
-Create Job Card based on Batch Size,基于批量创建(拆分)工序卡
+Create Job Card based on Batch Size,基于批量创建(拆分)生产任务单
 Production Plan Summary,生产计划汇总报表
 Work Order Tree,生产工单树
 "If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",如勾选，用户每次登录时都弹框通知。否则只弹框通知一次。,
@@ -14797,7 +14797,7 @@ Closing Balance as per ERP,ERP系统余额
 22210102 - 销项税额 @ 13.0 Amount,税额
 22210101 - 进项税额 @ 13.0 Rate,税率
 22210101 - 进项税额 @ 13.0 Amount,税额
-Automatically Fetch Payment Terms from Order,优先从从订单带出付款条款
+Automatically Fetch Payment Terms from Order,优先从订单带出付款条款
 Deposit,存款
 Withdrawal,取款
 Reconcile the Bank Transaction,核销银行交易流水
@@ -15356,7 +15356,7 @@ Add Manually,手动添加
 Ignore Voucher Type filter and Select Vouchers Manually,忽略凭证类型，手动选择凭证
 Payment Ledger Entry,收付款台账
 DeLinked,已取消关联
-Against Voucher No,关联凭证号
+Against Voucher No,对销凭证号
 Amount in Account Currency,金额(科目货币)
 No of Months (Expense),月数(费用)
 Avg Rate (Balance Stock),平均成本价(库存余额)
@@ -15395,6 +15395,7 @@ Use Batch-wise Valuation,按批号计算成本
 Start Reposting,执行成本价追溯调整记账
 Reposting has been started in the background.,成本价追溯调整记账已在后台运行
 Rate Difference with Purchase Invoice,采购发票价差
+Amount Difference with Purchase Invoice,采购发票价差
 No jobs found on this site,本站点无当前任务
 Auto Refresh,自动刷新
 All Queues,全部队列
@@ -16045,7 +16046,7 @@ Payroll Reports,薪资报表
 Custom Block Name,自定义HTML块
 Please select a supplier for fetching payments.,请选择一个供应商以获取付款台账信息
 Show Ledger View,显示单个供应商付款台账
-Job Card Scheduled Time,工序卡计划工时
+Job Card Scheduled Time,生产任务单计划工时
 Scheduled Time Logs,计划工时
 Qty In Stock,实际库存数量
 Repair Details,维修详情
@@ -16133,7 +16134,7 @@ All Work Orders,所有工单
 Minimal,最少
 Non-numeric,非数字
 Total Billed Amount (via Sales Invoice),总开票金额（通过销售发票）
-Plan operations X days in advance,提交工单时最多提前多少天自动创建工序卡
+Plan operations X days in advance,提交工单时最多提前多少天自动创建生产任务单
 "Partial stock can be reserved. For example, If you have a Sales Order of 100 units and the Available Stock is 90 units then a Stock Reservation Entry will be created for 90 units. ",允许预留部分订单数量，如库存数量90个，订单数量100个，允许为订单创建数量为90个的预留单
 "Auto Reserve Stock for Sales Order on Purchase",启用采购入库时自动为关联的销售订单创建预留
 "Stock will be reserved on submission of <b>Purchase Receipt</b> created against Material Receipt for Sales Order.",<b>采购入库</b>提交时自动为与之关联的物料需求，即销售订单创建库存预留
@@ -16524,7 +16525,7 @@ Finished Good BOM,成品物料清单
 Service Item Qty,服务物料数量
 Service Item UOM,服务物料单位
 Set Operating Cost / Scrape Items From Sub-assemblies,基于子装配件设置工序成本 / 报废物料
-"In the case of 'Use Multi-Level BOM' in a work order, if the user wishes to add sub-assembly costs to Finished Goods items without using a job card as well the scrap items, then this option needs to be enable.",适用于成品工单不启用工序卡，使用多级物料清单，将下层子装配件的工序成本及报废物料添加到成品工单场景
+"In the case of 'Use Multi-Level BOM' in a work order, if the user wishes to add sub-assembly costs to Finished Goods items without using a job card as well the scrap items, then this option needs to be enable.",适用于成品工单不启用生产任务单，使用多级物料清单，将下层子装配件的工序成本及报废物料添加到成品工单场景
 Current Serial / Batch Bundle,当前序列号/批号
 Permission Type,权限类型
 Tax Masters,税
@@ -16710,14 +16711,14 @@ Workflow Details,工作流详情
 Workflow updated successfully,工作流更新成功
 Search or type a command ({0}),搜索或输入命令({0})
 Parts Per Hour,每小时产量
-Job Capacity,工序卡产能
+Job Capacity,生产任务单产能
 Workstation Status,工站状态
 Status Illustration,状态图样
 Active Status,在产状态
 Inactive Status,停机状态
 Plant Floor,车间
 Floor,车间
-Job Cards,工序卡
+Job Cards,生产任务单
 Page Height (in mm),页高(毫米)
 Page Width (in mm),页宽(毫米)
 PDF Page Height (in mm),PDF页高(毫米)
@@ -17009,10 +17010,10 @@ Do reposting for each Stock Transaction,按业务单据进行成本追溯调整
 Create Reposting Entry,创建物料成本价追溯调整
 "Any one of following filters required: warehouse, Item Code, Item Group",需要至少一个过滤条件：仓库，物料号，或物料组
 Assign Job to Employee,派工
-Pause Job,暂停工序卡
+Pause Job,暂停生产任务单
 Get Raw Materials Cost from Consumption Entry,入库成品原材料成本取自工单耗用
 "Row {0}: As {1} is enabled, raw materials cannot be added to {2} entry. Use {3} entry to consume raw materials.",第 {0} 行：生产设置中已勾选 入库成品原材料成本取自工单耗用，工单入库中不允许倒扣原材料，请创建工单耗用物料移动消耗原材料
-Materials needs to be transferred to the work in progress warehouse for the job card {0},请先为工序卡 {0} 发料(直接调拨)
+Materials needs to be transferred to the work in progress warehouse for the job card {0},请先为生产任务单 {0} 发料(直接调拨)
 Time logs are required for {0} {1},请为 {0} {1} 填写工时记录,
 Items to Reserve,库存预留明细
 Stock Reservation Entries Created,库存预留单已创建
@@ -17181,12 +17182,12 @@ Recover Cost,收回成本
 Is Tax Withholding Account,是代扣税科目
 Create in Draft Status,创建为草稿
 BOM and Production,物料清单与生产
-Job Card and Capacity Planning,工序卡与产能计划
+Job Card and Capacity Planning,生产任务单与产能计划
 Raw Materials Consumption,原材料耗用
 "Raw Materials Consumption ",原材料耗用
 Validate Components Quantities Per BOM,基于物料清单校验原材料/零部件耗用数量
-Manufacture Sub-assembly in Operation,使用工序卡生产子装配件/半成品
-If enabled then system will manufacture Sub-assembly against the Job Card (operation).,如果勾选系统会使用工序卡生产子装配件/半成品
+Manufacture Sub-assembly in Operation,使用生产任务单生产子装配件/半成品
+If enabled then system will manufacture Sub-assembly against the Job Card (operation).,如果勾选系统会使用生产任务单生产子装配件/半成品
 Source Warehouse Address Link,发料仓地址(链接)
 Target Warehouse Address Link,收料仓地址(链接)
 Calculate daily depreciation using total days in depreciation period,按折旧期间总天数计算日折旧额
@@ -17370,16 +17371,16 @@ Use the new Print Format Builder,启用新打印格式编辑器
 Issue,资产发出,Asset Movement
 Receipt,资产收到,Asset Movement
 Transfer,资产移转,Asset Movement
-"Updated via 'Time Log' (In Minutes)",由工序卡工时记录表自动更新(分钟)
-The Process Loss Qty has reset as per job cards Process Loss Qty,已基于工单工序卡最大制程损耗重置了制程损耗数量
+"Updated via 'Time Log' (In Minutes)",由生产任务单工时记录表自动更新(分钟)
+The Process Loss Qty has reset as per job cards Process Loss Qty,已基于工单生产任务单最大制程损耗重置了制程损耗数量
 "{0}, complete the operation {1} before the operation {2}.",{0}，在工序 {2} 前请先完成工序 {1}
-Job Card {0}: As per the sequence of the operations in the work order {1},工序卡 {0}：基于工单 {1} 工序顺序号
-You can't make any changes to Job Card since Work Order is closed.,因生产工单已关闭，工序卡不能再变更
+Job Card {0}: As per the sequence of the operations in the work order {1},生产任务单 {0}：基于工单 {1} 工序顺序号
+You can't make any changes to Job Card since Work Order is closed.,因生产工单已关闭，生产任务单不能再变更
 Please select a Work Order first.,请先选择生产工单
-Extra Job Card Quantity,工序卡数量超计划数量
+Extra Job Card Quantity,生产任务单数量超计划数量
 The {0} {1} is used to calculate the valuation cost for the finished good {2}.,{0} {1} 用于计算入库成品成本
 Kindly cancel the Manufacturing Entries first against the work order {0}.,请先取消工单入库
-Row #{0}: Cannot transfer more than Required Qty {1} for Item {2} against Job Card {3},第 {0} 行：对工序卡 {3} 发物料 {2} 不可超过需求量 {1}
+Row #{0}: Cannot transfer more than Required Qty {1} for Item {2} against Job Card {3},第 {0} 行：对生产任务单 {3} 发物料 {2} 不可超过需求量 {1}
 Excess Transfer,超发
 Material Transfer (In Transit),直接调拨(在途)
 Capitalize this asset to confirm,资本化该资产后再确认
@@ -17403,7 +17404,7 @@ Proceed,继续
 Show Aggregate Value from Subsidiary Companies,显示下属公司合计值
 Show Dimension Wise Stock,按辅助核算分组显示
 Set Operating Cost / Scrap Items From Sub-assemblies,含子装配件工费成本/废料
-"To include sub-assembly costs and scrap items in Finished Goods on a work order without using a job card, when the 'Use Multi-Level BOM' option is enabled.",工单勾选使用多级物料清单但未启用工序卡，成品入库包含子装配件工费成本及废料
+"To include sub-assembly costs and scrap items in Finished Goods on a work order without using a job card, when the 'Use Multi-Level BOM' option is enabled.",工单勾选使用多级物料清单但未启用生产任务单，成品入库包含子装配件工费成本及废料
 Set Serial and Batch Bundle Naming Based on Naming Series,启用序列号/批号编号模板
 Payment Reconciliation Settings,收付款核销设置
 Auto Reconciliation Job Trigger,自动核销后台任务触发间隔
@@ -17419,3 +17420,18 @@ Allow Internal Transfers at Arm's Length Price,启用近距离调拨价
 Fetch Timesheet in Sales Invoice,允许在销售发票获取工时表
 Qty (Company),数量（公司）
 Qty (Warehouse),数量（仓库）
+Amount in Transaction Currency,交易货币金额
+Preview Required Materials,原材料需求预览
+Amount Difference with Purchase Invoice
+Grid Page Length,表单子表默认显示行数
+Include Closed Orders,包括已关闭订单
+Billed Items To Be Received,已开票待采购入库明细
+Invalid Ledger Entries,异常总账凭证
+Recreate Stock Ledgers,重新生成物料凭证
+Allow to Make Quality Inspection after Purchase / Delivery,允许采购入库/销售出库提交后创建质检单
+Allow UOM with Conversion Rate Defined in Item,启用计量单位控制
+"If enabled, the system will allow selecting UOMs in sales and purchase transactions only if the conversion rate is set in the item master.",如勾选则采购/销售订单中仅限选择物料主数据维护了转换率的计量单位
+"Rows: {0} have 'Payment Entry' as reference_type. This should not be set manually.",第 {0} 行，源单据类型不能为收付款凭证
+Distributed Discount Amount,分摊的折旧金额
+There were issues unlinking payment entry {0}.,无法取消付款凭证{0}核销,
+Send Email To Creator,发邮件给单据创建者

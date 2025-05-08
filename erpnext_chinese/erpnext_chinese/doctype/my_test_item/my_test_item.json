@@ -7,6 +7,8 @@
  "engine": "InnoDB",
  "field_order": [
   "qty",
+  "\u5e45\u5bbd",
+  "\u6392\u5200\u5377\u6570",
   "employees"
  ],
  "fields": [
@@ -21,11 +23,24 @@
    "fieldtype": "Table",
    "label": "Employees",
    "options": "Child with Employee Name"
+  },
+  {
+   "fieldname": "\u5e45\u5bbd",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "\u5e45\u5bbd"
+  },
+  {
+   "fieldname": "\u6392\u5200\u5377\u6570",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "\u6392\u5200\u5377\u6570"
   }
  ],
+ "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-13 22:54:23.930603",
+ "modified": "2025-05-06 22:39:51.033341",
  "modified_by": "Administrator",
  "module": "ERPNext Chinese",
  "name": "My Test Item",
@@ -44,6 +59,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
