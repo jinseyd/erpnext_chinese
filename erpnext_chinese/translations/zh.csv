@@ -3014,7 +3014,7 @@ Include holidays within leaves as leaves,包括休假期间的节假日
 All communications including and above this shall be moved into the new Issue,包括及以上的所有通信均应移至新问题中
 Include Subcontracted Items,包含委外物料
 Include All Assessment Group,包括所有评估组
-Include Reconciled Entries,包括核销分录
+Include Reconciled Entries,包括已核销单据
 Include indentation,包括缩进
 Include Default Book Entries,包括公司默认账簿分录
 Repack,重新包装
@@ -5223,8 +5223,8 @@ Consumed,已耗用
 Consumed Qty,已耗用数量
 {0} {1} added,已添加{0} {1}
 Added {0} ({1}),已添加{0}（{1}）
-Attached To DocType,已添加到单据类型
-Attached To Name,已添加到名称
+Attached To DocType,关联单据类型
+Attached To Name,关联单据名
 Property already added,已添加属性
 Is Active,生效
 Active,生效
@@ -6472,6 +6472,11 @@ Group by Voucher (Consolidated),按凭证(已合并)分组
 Group by Voucher(Consolidated),按凭证(汇总)分组
 "Can not filter based on Voucher No, if grouped by Voucher",按凭证分类后不能根据凭证号过滤
 Group by Voucher,按凭证分组
+Categorize by,分组
+Categorize by Voucher (Consolidated),按凭证(已合并)分组
+Categorize by Voucher,按凭证分组
+Categorize by Account,按科目分组
+Categorize by Party,按往来单位分组
 Click Enter To Add,按回车键添加
 Group By Customer,按客户分组
 Salary Component for timesheet based payroll.,按工时表付薪的薪资构成项。
@@ -8551,7 +8556,7 @@ Add Unsubscribe Link,添加退订链接
 Add Sales Partners,添加业务伙伴
 apps/frappe/frappe/desk/doctype/event/event.js，Add Sales Partners,添加业务伙伴
 Add Attachment,添加附件
-Attached To Field,添加附件至字段
+Attached To Field,关联的字段
 "List as [{""label"": _(""Jobs""), ""route"":""jobs""}]",清单[{“标签”：_（“作业”），“路径”：“工作”}]
 Clearance Date,清账日期
 Clearance Date updated,清账日期已更新
@@ -10143,7 +10148,7 @@ Medication,药物治疗
 Get from,选
 Get Invocies,获取Invocies
 Get Alerts for Today,获取今天的预警通知
-Get Payment Entries,选收付款凭证
+Get Payment Entries,获取待清账单据
 Payment Entry has been modified after you pulled it. Please pull it again.,选择收付款凭证后有修改，请重新选取。
 Get Suppliers,选供应商
 Get Entries,选凭证
@@ -10354,7 +10359,7 @@ Check this if you want to show in website,要在网站上展示，请勾选此�
 To Pin Code,要密码
 "To format columns, give column labels in the query.",要格式化列，在查询中为列添加标签。
 Mandate,要求
-Requested,需求量
+Requested,已申请
 Required On,要求日期
 Guidelines to install ldap dependancies and python,要求安装LDAP依赖关系和python
 "To add dynamic subject, use jinja tags like<div><pre><code>{{ doc.name }} Delivered</code></pre></div>",要添加动态主题，用Jinja标签，如<div><pre> <code>{{ doc.name }} Delivered</code> </pre> </div>
@@ -12648,6 +12653,7 @@ Budget Detail,预算信息
 Budget and Cost Center,预算和成本中心
 Budget Against,预算对象
 Budget Variance Report,预算差异报表
+Budget Variance,预算差异
 Total Budget,预算总额
 "Budget cannot be assigned against {0}, as it's not an Income or Expense account",预算案不能分配给科目{0}，因为其不是收入或费用科目
 Budget List,预算清单
@@ -13245,7 +13251,7 @@ Please select Item from Table,请从表中选择物料
 Please set a Supplier against the Items to be considered in the Purchase Order.,请为要创建采购订单的物料设置供应商
 Search Priorities,搜索优先级
 Territory Wise Sales,区域销售额分布
-Total Outgoing Bills,总销售发票
+Total Outgoing Bills,销售总额
 Set From Warehouse,发料仓
 Source Warehouse (Material Transfer),发料仓(调拨)
 The {0} {1} created sucessfully,已创建{0} {1}
@@ -13864,10 +13870,10 @@ Total Assets,总资产
 Total Early Exits,总早退
 Total Expense,总费用
 Total Income,总收入
-Total Incoming Bills,总采购发票
-Total Incoming Payment,总收款 
-Total Outgoing Payment,总付款
-Total Received Amount,总收到金额
+Total Incoming Bills,采购总额
+Total Incoming Payment,收款总额 
+Total Outgoing Payment,付款总额
+Total Received Amount,收到总额
 Updated Successfully,更新成功
 Updating {0} of {1}, {2},上传中 {0} / {1} {2}
 Upload XML Invoices,上传XML格式账单
@@ -14481,8 +14487,8 @@ Create Ledger Entries for Change Amount,为找零生成日记账凭证
 Period Closing Settings,期末结账设置
 Update Settings,更新设置
 Role Allowed to Override Stop Action,可忽略预算设置的停止控制的角色
-Bill for Rejected Quantity in Purchase Invoice,采购发票含拒收数量
-"If checked, Rejected Quantity will be included while making Purchase Invoice from Purchase Receipt.",如勾选，从采购入库创建采购发票时包含拒收数量
+Bill for Rejected Quantity in Purchase Invoice,采购发票含被退货数量
+"If checked, Rejected Quantity will be included while making Purchase Invoice from Purchase Receipt.",如勾选，从采购入库创建采购发票时包含被退货数量
 Add Corrective Operation Cost in Finished Good Valuation,入库成品成本价含返工工序成本
 Make Serial No / Batch from Work Order,从工单生成序列号/批号
 System will automatically create the serial numbers / batch for the Finished Good on submission of work order,在工单提交时系统自动生成序列号/批号
@@ -15506,7 +15512,7 @@ Client Secret,客户端秘钥
 Allow existing Serial No to be Manufactured/Received again,允许现有序列号重新生产及入库
 Show Taxes as Table in Print,税以明细表形式打印输出
 Enable Automatic Party Matching,启用自动匹配往来单位
-Auto match and set the Party in Bank Transactions,在银行交易中自动匹配并设置往来单位字段
+Auto match and set the Party in Bank Transactions,银行交易流水提交时自动匹配并填写往来单位字段
 Banking,银行,
 Ignore Closing Balance,忽略期末库存余额
 Regenerate Closing Stock Balance,重新生成期末库存余额
@@ -15620,12 +15626,12 @@ amended_from,修订自(上一版单据编号)
 unallocated_amount,未分配金额
 party_type,往来类型
 party,往来单位
-bank_party_name,开户人
-bank_party_account_number,银行账号
-bank_party_iban,国际银行账号iban
-Party Name/Account Holder (Bank Statement),开户人(银行对账)
-Party Account No. (Bank Statement),银行账号(银行对账)
-Party IBAN (Bank Statement),国际银行账号iban(银行对账)
+bank_party_name,往来单位名
+bank_party_account_number,往来单位银行账号
+bank_party_iban,往来单位iban
+Party Name/Account Holder (Bank Statement),往来单位名/银行户头(银行对账)
+Party Account No. (Bank Statement),往来单位银行账号(银行对账)
+Party IBAN (Bank Statement),往来单位iban(银行对账)
 Let's set up your account,设置账号
 Setup your organization,设置公司
 Welcome,欢迎
@@ -17422,7 +17428,6 @@ Qty (Company),数量（公司）
 Qty (Warehouse),数量（仓库）
 Amount in Transaction Currency,交易货币金额
 Preview Required Materials,原材料需求预览
-Amount Difference with Purchase Invoice
 Grid Page Length,表单子表默认显示行数
 Include Closed Orders,包括已关闭订单
 Billed Items To Be Received,已开票待采购入库明细
@@ -17435,3 +17440,10 @@ Allow UOM with Conversion Rate Defined in Item,启用计量单位控制
 Distributed Discount Amount,分摊的折旧金额
 There were issues unlinking payment entry {0}.,无法取消付款凭证{0}核销,
 Send Email To Creator,发邮件给单据创建者
+Storage Details,存储详情
+This file is public. It can be accessed without authentication.,此为公开文件，用户无需登录即可访问
+Province,省/市/自治州
+State/Province,省/市/自治州
+Incoming Bills (Purchase Invoice),采购发票
+Outgoing Bills (Sales Invoice),销售发票
+Select the Bank Account to reconcile.,选择银行户头。,
