@@ -16469,7 +16469,7 @@ Accounting Ledger Preview,会计凭证预览
 The number of seconds until the request expires,请求逾期时间(秒)
 Is Dynamic URL?,是动态网址?
 Is Stock Item,是库存物料
-Repost Accounting Ledger Settings,会计凭证更新台账设置
+Repost Accounting Ledger Settings,过账可改科目单据设置
 Allowed Doctypes,允许的单据类型
 Delete Cancelled Ledger Entries,删除被取消凭证
 "{0} {1} not allowed to be reposted. Modify {2} to enable reposting.",不允许更新 {0} {1} 会计凭证，请在 {2} 中启用允许更新
