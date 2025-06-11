@@ -1,6 +1,6 @@
 ## ERPNext Chinese
 <div align="center">
-    <a href="https://zelin.tech">
+    <a href="https://gitee.com/yuzelin/erpnext_chinese/blob/master/erpnext_chinese/public/images/erpnext_chinese-logo.png">
         <img src="https://gitee.com/yuzelin/erpnext_chinese/blob/master/erpnext_chinese/public/images/erpnext_chinese-logo.png" height="128">
     </a>
     <h2>ERPNext 中文汉化</h2>    
