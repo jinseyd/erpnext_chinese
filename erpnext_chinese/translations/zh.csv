@@ -5244,7 +5244,7 @@ Already in user's To Do list,已经在用户的待办列表
 Already completed,已经完成
 Settled,已结清
 You are connected to internet.,已联网。
-Debit Note {0} has been created automatically,已自动创建扣款单{0}
+Debit Note {0} has been created automatically,已自动创建红冲（借记）单{0}
 Auto Material Requests Generated,已自动生成物料需求
 Odometer Value (Last),已行驶里程
 Number of Depreciations Booked,已记账折旧次数
@@ -5985,8 +5985,8 @@ You have {0} days left in your subscription,您的订阅还剩有{0}天
 Your rating: ,您的评分：
 Your cart is Empty,您的购物车是空的
 "Your query has been received. We will reply back shortly. If you have any additional information, please reply to this mail.",您的问题已收到。我们将尽快回复邮件。如果您还有任何其他的信息，请回覆此邮件。
-Are you sure you want to make debit note?,您确定要创建扣款单吗？
-Are you sure you want to make credit note?,您确定要创建退款单吗？
+Are you sure you want to make debit note?,您确定要创建借记单吗？
+Are you sure you want to make credit note?,您确定要创建贷记单吗？
 Are you sure you want to delete the attachment?,您确定要删除附件？
 Are you sure you want to relink this communication to {0}?,您确定要重新链接该通信{0}？
 Do you want to submit the material request,创建的物料需求直接提交? 选否只保存(草稿状态)
@@ -7254,8 +7254,8 @@ Is Working Capital,是营运资本
 Is a Subscription,是订阅
 Is Finance Cost,是财务成本
 In Filter,是自定义过滤字段
-Is Return (Debit Note),退款(借记单)
-Is Return (Credit Note),退款(贷记单)
+Is Return (Debit Note),红冲(借记单)
+Is Return (Credit Note),红冲(贷记单)
 Is Purchase Item,允许采购
 Allow Purchase,允许采购
 Is Milestone,是里程碑
@@ -13586,7 +13586,7 @@ Reserved Quantity for Production,生产预留数量
 Row # {0}: Returned Item {1} does not exist in {2} {3}, 第{0}行:退回物料{1}在{2} {3}中不存在
 Row #{0}: Accepted Warehouse and Supplier Warehouse cannot be same,第{0}行:接收仓与委外仓不能相同
 Row #{0}: Cannot delete item {1} which has already been billed.,第{0}行: 不能删除已开票物料 {1}
-Row #{0}: Cannot delete item {1} which has already been delivered,第{0}行: 不能删除已出化物料 {1}
+Row #{0}: Cannot delete item {1} which has already been delivered,第{0}行: 不能删除已出货物料 {1}
 Row #{0}: Cannot delete item {1} which has already been received,第{0}行: 不能删除已收货物料 {1}
 Row #{0}: Cannot delete item {1} which has work order assigned to it.,第{0}行: 不能删除已关联工单的物料 {1}
 Row #{0}: Cannot delete item {1} which is assigned to customer's purchase order.,第{0}行: 不能删除已分派客户采购订单号的物料 {1}
@@ -14309,7 +14309,7 @@ Return Against,源单
 Company Tax ID,公司纳税登记号
 Index,索引
 Base Amount,基准金额
-To be Delivered to Customer,待出货给客户
+To be Delivered to Customer,由供应商直运给客户
 Billing Address Details,发票地址详情
 Company Billing Address,公司发票地址
 Company Shipping Address,公司收货地址
@@ -16919,6 +16919,7 @@ Failed to delete {0} documents: {1},未能删除 {0} 个单据: {1}
 Bulk Operation Failed,批量操作失败
 Update Outstanding for Self,更新本单未付金额
 "Credit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源单，系统会更新本退款单(而不是源单)未付金额
+"Credit Note will update it's own outstanding amount, even if 'Return Against' is specified.",即使指定'源单'，在本单处理付款与核销,
 "We can see {0} is made against {1}. If you want {1}'s outstanding to be updated, uncheck '{2}' checkbox.  Or you can use {3} tool to reconcile against {1} later.","你基于源单 {1} 创建了  {0} . 如果希望更新 {1} 的未付金额, 取消勾选 '{2}' . <br><br> 或者后续使用 {3} 工具核销 {1} ."
 Currency ,货币
 Amount that has been paid against this advance,本预支已付金额
@@ -17024,7 +17025,7 @@ Time logs are required for {0} {1},请为 {0} {1} 填写工时记录,
 Items to Reserve,库存预留明细
 Stock Reservation Entries Created,库存预留单已创建
 Stock Reservation Entries Cancelled,库存预留单已取消
-"Debit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源采购发票，系统会更新本退款单(而不是源采购发票)未付金额，
+"Debit Note will update it's own outstanding amount, even if ""Return Against"" is specified.",即使指定了源单，在本单处理付款与核销，
 Row #{0}: Stock not available to reserve for the Item {1} in Warehouse {2}.,第 {0} 行：物料 {1} 在仓库 {2} 中无可预留数量
 Stock not available for Item {0} in Warehouse {1}.,物料 {0} 在仓库 {2} 中无可预留数量
 Row #{0}: Serial No {1} for Item {2} is not available in {3} {4} or might be reserved in another {5}.,第 {0} 行：在 {3} {4} 无可预留的物料{2} 序列号 {1} 或者已被其它 {5} 预留占用了
