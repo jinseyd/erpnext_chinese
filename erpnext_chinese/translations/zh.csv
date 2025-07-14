@@ -7537,7 +7537,7 @@ Cost Center with existing transactions can not be converted to group,有交易�
 Account with existing transaction can not be deleted,有交易的科目不能被删除
 Account with existing transaction can not be converted to group.,有交易的科目不能被转换为组。
 Has any past Grant Record,有以前的获批记录吗？
-Set,有值,Field value is set
+Set,有值
 Not Set,空值
 Please check the error log for details about the import errors,有关导入错误的详细信息，请查看错误日志
 "For help see <a href=""https://frappe.io/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">Client Script API and Examples</a>","有关帮助，请参阅<a href=""https://frappe.io/docs/user/en/guides/portal-development/web-forms"" target=""_blank"">客户端脚本API和示例</a>"
@@ -13026,7 +13026,7 @@ Daily Wages Fraction for Half Day,半天工作日薪
 The fraction of daily wages to be paid for half-day attendance,半天工作发放日工资的比例
 "If checked, hides and disables Rounded Total field in Salary Slips",如勾选，将不在工资单上进行小数精度尾差处理
 Restrict Backdated Leave Application,禁止后补请假单
-You're doing great, let's take you back to the onboarding page.,干得不错
+"You're doing great, let's take you back to the onboarding page.",干得不错
 Good Work,干得漂亮
 Outgoing Salary,支付的工资
 Is Recurring,重复
@@ -13078,7 +13078,7 @@ Completion,完成%
 To date can not be greater than employee's relieving date.,结束日不能晚于员工离职日
 To date cannot be before From date,结束日不应早于开始日
 To date needs to be before from date,结束日应晚于开始日
-To configure Auto Repeat, enable ""Allow Auto Repeat"" from {0}.,要配置自动重复，请为单据类型{0}启用""允许自动重复""
+"To configure Auto Repeat, enable ""Allow Auto Repeat"" from {0}.",要配置自动重复，请为单据类型{0}启用""允许自动重复""
 Click On Customize to add your first widget,点击定制按钮开始定制
 Account is not set for the dashboard chart {0},尚未为统计图表{0}设置科目
 Account is mandatory to get payment entries,请输入科目以获取收付款凭证
@@ -13114,7 +13114,7 @@ In Location,在库
 Disposed,已处置
 Available For Use Date,可用日期
 Produce Qty,生产数量
-Simple Python Expression, Example: Status in (""Invalid""),简单python表达式，如表示在无效状态下 Status in (""Invalid"")
+"Simple Python Expression, Example: Status in (""Invalid"")",简单python表达式，如表示在无效状态下 Status in (""Invalid"")
 Auto Create Assets on Purchase,通过采购自动创建资产主数据
 Raw Material Cost (Company Currency),原材料成本(本币)
 Raw Materials Consumption,原材料消耗
@@ -13609,11 +13609,11 @@ Row {0}: Delivery Warehouse ({1}) and Customer Warehouse ({2}) can not be same,�
 Row {0}: Due Date in the Payment Terms table cannot be before Posting Date,第{0}行: 付款计划中的到期日不能早于记账日
 Row {0}: Invalid Item Tax Template for item {1},第{0}行: 物料 {1} 的物料税模板不正确
 Row {0}: Loan Security {1} added multiple times,第{0}行: 抵押 {1} 被添加了多次
-Row {0}: The item {1}, quantity must be positive number,第{0}行: 物料 {1} 数量必须为正数
+"Row {0}: The item {1}, quantity must be positive number",第{0}行: 物料 {1} 数量必须为正数
 Row {0}: user has not applied the rule {1} on the item {2},第{0}行: 用户未为物料 {2} 选择规则 {1}
 Row {0}: {1} is required in the expenses table to book an expense claim.,第{0}行:费用表中的{1} 必填
-Row {0}:Sibling Date of Birth cannot be greater than today.,第{0}行:Sibling Date of Birth cannot be greater than today.,第{0}行:兄弟姐妹的出生日期不能晚于今天
-Row {1}: Quantity ({0}) cannot be a fraction. To allow this, disable '{2}' in UOM {3}.,第{1}行:数量 ({0}不可以是小数， 要允许小数，请在计量单位{3}主数据中取消勾选'{2}'
+Row {0}:Sibling Date of Birth cannot be greater than today.,第{0}行:兄弟姐妹的出生日期不能晚于今天
+"Row {1}: Quantity ({0}) cannot be a fraction. To allow this, disable '{2}' in UOM {3}.",第{1}行:数量 ({0}不可以是小数， 要允许小数，请在计量单位{3}主数据中取消勾选'{2}'
 Row {}: Asset Naming Series is mandatory for the auto creation for item {},第{}行: 为物料 {} 勾选通过采购自动创建资产主数据后，资产编号模板必填
 Search Items ...,搜索....
 Search Results for,搜索结果
@@ -13875,7 +13875,7 @@ Total Incoming Payment,收款总额
 Total Outgoing Payment,付款总额
 Total Received Amount,收到总额
 Updated Successfully,更新成功
-Updating {0} of {1}, {2},上传中 {0} / {1} {2}
+"Updating {0} of {1}, {2}",上传中 {0} / {1} {2}
 Upload XML Invoices,上传XML格式账单
 Upload failed,上传失败
 Uploaded successfully,上传成功
@@ -13924,21 +13924,21 @@ Could not save customization,不能保存配置
 Couldn't Load Desk,无法加载桌面
 BOM 1 {0} and BOM 2 {1} should not be same,物料清单1 {0} 与物料清单2 {0} 不能相同
 BOM recursion: {0} cannot be child of {1},物料清单嵌套： {0} 不能是 {1} 的下层
-If the item is transacting as a Zero Valuation Rate item in this entry, please enable 'Allow Zero Valuation Rate' in the {0} Item table.,如果此业务中的物料成本价为0，请在物料明细表 {0} 中勾选 成本价为0
+"If the item is transacting as a Zero Valuation Rate item in this entry, please enable 'Allow Zero Valuation Rate' in the {0} Item table.",如果此业务中的物料成本价为0，请在物料明细表 {0} 中勾选 成本价为0
 Mention Valuation Rate in the Item master.,在物料主数据中维护成本价
 Last Stock Transaction for item {0} was on {1}.,物料 {0} 最后库存异动日期 {1}
 Note: Item {0} added multiple times,注：物料 {0} 添加了多次
-Row {0}: The item {1}, quantity must be positive number,第 {0} 行： 物料 {1} 数量必须为正数
-For an item {0}, quantity must be positive number, 物料 {0} 其数量必须为正数
+"Row {0}: The item {1}, quantity must be positive number",第 {0} 行： 物料 {1} 数量必须为正数
+"For an item {0}, quantity must be positive number", 物料 {0} 其数量必须为正数
 Valuation Rate Missing,无成本价
-Valuation Rate for the Item {0}, is required to do accounting entries for {1} {2}.,需要有物料 {0} 的成本价才能生成会计凭证 {1} {2}
+"Valuation Rate for the Item {0}, is required to do accounting entries for {1} {2}.",需要有物料 {0} 的成本价才能生成会计凭证 {1} {2}
 Value for field {0} is too long in {1}. Length should be lesser than {2} characters,{1} 中的字段 {0} 值太长，长度应该小于 {2}
 Value must be one of {0},值必须是 {0} 之一
 Value to Validate,待验证的值
 Value {0} missing for {1}, {1} 不包括值 {0}
 Child Table,子表
 China,中国
-Couldn't save, please check the data you have entered,不能保存，请检查输入的数据
+"Couldn't save, please check the data you have entered",不能保存，请检查输入的数据
 Finished Date,完成日期
 Finished Goods Warehouse,成品仓
 From and To Dates are required.,开始与结束日期必填
@@ -13947,8 +13947,8 @@ Get Payments from,选付款
 Item {0} is not active,物料已禁用
 Journal Entry Template Account,日记账凭证模板科目
 Journal Entry Type,日记账分录类型
-"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in supplier master.,此设置可防止未创建采购订单的情况下创建采购入库或采购发票，可在供应商主数据中覆盖此设置
-"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in supplier master.,此设置可防止未创建采购入库的情况下创建采购发票，可在供应商主数据中覆盖此设置
+"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in supplier master.",此设置可防止未创建采购订单的情况下创建采购入库或采购发票，可在供应商主数据中覆盖此设置
+"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in supplier master.",此设置可防止未创建采购入库的情况下创建采购发票，可在供应商主数据中覆盖此设置
 "If ticked, multiple materials can be used for a single Work Order. This is useful if one or more time consuming products are being manufactured.",如勾选，一个工单可使用多个物料，此设置针对一个或多个长周期产品生产
 "If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials.",如勾选，物料清单成本会基于其原材料的成本价/价格表主数据/最新采购价自动更新
 Full Width,全宽
@@ -14139,7 +14139,7 @@ Weekly,每周
 Monthly,每月
 Quarterly,每季
 Yearly,每年
-Left,已离职,DocType: Employee
+Left,已离职,Employee
 Invalid Option,错误选项
 Option {0} for field {1} is not a child table,为字段{1}设置的选项{0}未被定义为是子表
 Select Fields To Insert,选择字段
@@ -14223,7 +14223,7 @@ Recent Transactions,最近交易
 Click to add email / phone,点击添加邮箱/电话
 No items in cart,物料车为空
 item cart,物料车
-Search by itemcode, serial number or barcode,按物料料，序列号或条码检索
+"Search by itemcode, serial number or barcode",按物料料，序列号或条码检索
 Click here to post bugs and suggestions,点击这里提交问题与建议
 Experimental,实验中功能
 Review Chart of Accounts,审核科目表
@@ -14986,7 +14986,7 @@ Just like the supplier, let's quickly create a customer.","## 谁是客户
 客户是购买产品、服务的组织
 
 每个客户须有(唯一识别)客户号，可在销售(模块)设置中选择客户号生成方式：客户名或自动流水码"
-DocTypes can not be modified, please use {0} instead,单据类型不能修改，请通过{0}修改
+"DocTypes can not be modified, please use {0} instead",单据类型不能修改，请通过{0}修改
 This site is running in developer mode. Any change made here will be updated in code.,本站点已设置开发者模式参数，单据修改会同步到代码中
 "If you just want to customize for your site, use {0} instead.",如果只是定制，请通过{0}修改
 The value {0} is already assigned to an existing Item {1}.,现有物料{1}已使用此属性值{0}。,
@@ -15116,7 +15116,7 @@ Auto close Opportunity Replied after the no. of days mentioned above,在上述�
 Carry Forward Communication and Comments,自动将邮件评论等沟通记录转至下游单据
 Min Qty (As Per Stock UOM),最小数量(库存单位)
 Max Qty (As Per Stock UOM),最大数量(库存单位)
-Threshold for Suggestion (In Percentage),,建议阀值(%)
+Threshold for Suggestion (In Percentage),建议阀值(%)
 Additional Info,附加信息
 Fixed Time,固定时间
 Operation time does not depend on quantity to produce,加工(操作)时间不随着生产数量变化
@@ -15243,7 +15243,7 @@ Qty Change,数量变动
 Qty After Transaction,变更后数量
 Balance Stock Value,变更后库存金额
 Change in Stock Value,库存金额变动
-"FIFO Stock Queue (qty, rate)",先进先出队列(数量,单位成本)
+"FIFO Stock Queue (qty, rate)",先进先出队列(数量，单位成本)
 Limit timeslot for Stock Reposting,限定物料成本追溯调整执行时机
 "Limits don't apply on",限制不适用日期
 Use Item based reposting,按物料进行成本追溯调整
@@ -15470,7 +15470,7 @@ POS Closing Entry,POS机接班
 POS Opening Entry,POS机交班
 Create POS Opening Entry,创建POS接班记录,
 All Items,所有物料
-Search by item code, serial number or barcode,"按物料号，序列号，批号搜索"
+"Search by item code, serial number or barcode","按物料号，序列号，批号搜索"
 Select item group,选择物料组,
 Add Discount,折扣
 Item Code: {0} is not available under warehouse {1}.,仓库 {1} 中无此物料 {0}。
@@ -15486,7 +15486,7 @@ Recent Orders,最近订单
 Validate Stock on Save,保存时检查库存
 Write Off Limit,抹零限额
 Auto write off precision loss while consolidation,合并时自动圆整抹零
-If enabled, the consolidated invoices will have rounded total disabled,如勾选合并后的发票禁用小数精度尾差
+"If enabled, the consolidated invoices will have rounded total disabled",如勾选合并后的发票禁用小数精度尾差
 POS Search Fields,POS机搜索字段
 POS Field,POS机字段,
 Page Size,纸张大小
@@ -15519,7 +15519,7 @@ Regenerate Closing Stock Balance,重新生成期末库存余额
 Closing Stock Balance,期末库存余额
 For quantity {0} should not be greater than allowed quantity {1},成品数量 {0} 不能大于剩余可入库数量 {1}
 Uses Auto Increment feature of database.,使用数据库的自增序列功能
-WARNING: After using this option, any other naming option will not be accessible.,警告:自增编号功能会导致其它编号方式失效
+"WARNING: After using this option, any other naming option will not be accessible.",警告:自增编号功能会导致其它编号方式失效
 Cannot change to/from autoincrement autoname in Customize Form,定制表单不支持修改自增编号
 Can only change to/from Autoincrement naming rule when there is no data in the doctype,仅在单据类型无数据时修改自增编号
 Sort Options,按选项值排序
@@ -16233,7 +16233,7 @@ Creditor Turnover Ratio,应付账款周转率
 Inventory Turnover Ratio,存货周转率
 Web Template,网页模板
 Generate Demo Data for Exploration,生成供学习体验的样板数据
-'If checked, we will create demo data for you to explore the system. This demo data can be erased later.',勾选后系统会为您生成供学习探索的样板数据，样板数据使用过后可被清除
+"If checked, we will create demo data for you to explore the system. This demo data can be erased later.",勾选后系统会为您生成供学习探索的样板数据，样板数据使用过后可被清除
 Updates,更新
 Update frequency of Project,项目统计数据更新频率
 How often should Project be updated of Total Purchase Cost ?,更新项目总采购成本的频率
@@ -16841,8 +16841,8 @@ Voucher Qty,单据数量
 Available Qty to Reserve,可预留数量
 Unreserve,取消预留
 Reserve,预留
-{0} As {1} units are reserved for other sales orders, you are allowed to consume only {2} units.,{0} 因其它销售订单已预留了数量 {1}，剩余可耗用数量为 {2}
-{0} As the full stock is reserved for other sales orders, you're not allowed to consume the stock., {0} 因现有数量被其它销售订单预留，无可耗用数量
+"{0} As {1} units are reserved for other sales orders, you are allowed to consume only {2} units.",{0} 因其它销售订单已预留了数量 {1}，剩余可耗用数量为 {2}
+"{0} As the full stock is reserved for other sales orders, you're not allowed to consume the stock.", {0} 因现有数量被其它销售订单预留，无可耗用数量
 Is Rejected Warehouse,是拒收仓
 "If yes, then this warehouse will be used to store rejected materials",如勾选则该仓库是检验不合格待退货的拒收仓
 Select a Customer,选择客户
@@ -16979,9 +16979,9 @@ Row #{}: item {} has been picked already.,第 {} 行：物料 {} 已经拣货了
 Cannot create a pick list for Sales Order {0} because it has reserved stock. Please unreserve the stock in order to create a pick list.,为销售订单 {0} 创建了库存预留，请取消预留后再创建拣货单
 "Row {0} picked quantity is less than the required quantity, additional {1} {2} required.",第 {0} 行拣货数量少于需求数量，短缺 {1} {2}
 Pick List Incomplete,拣货单不完整
-Quantity must be greater than zero, and less or equal to {0},数量必须 > 0，且 <= {0}
+"Quantity must be greater than zero, and less or equal to {0}",数量必须 > 0，且 <= {0}
 Export all matching rows?,导入满足筛选条件的所有记录？
-Field not permitted in query,查询过滤条件字段无效(js调用db.get_value, db.get_list过滤条件不支持字表字段，db.get_list支持子单据查询，需添加parent_doctype:主单据类型参数用于权限检查)
+Field not permitted in query,"查询过滤条件字段无效(js调用db.get_value, db.get_list过滤条件不支持字表字段，db.get_list支持子单据查询，需添加parent_doctype:主单据类型参数用于权限检查)"
 Nothing New,无新消息
 There is nothing new to show you right now.,暂无可显示新消息
 Events,事件
@@ -17051,7 +17051,7 @@ Enable Allow Partial Reservation in the Stock Settings to reserve partial stock.
 Partial Stock Reservation,部分库存预留
 "Cannot amend {0} {1}, please create a new one instead.",不允许修订 {0} {1}，请创建新单据
 Stock cannot be reserved in group warehouse {0}.,不允许为勾选是组的仓库 {0} 创建库存预留单
-Reserved Qty ({0}) cannot be a fraction. To allow this, disable '{1}' in UOM {3}.,预留数量 {0} 不允许有小数，要允许小数请在单位 {3} 主数据中取消勾选 {1}
+"Reserved Qty ({0}) cannot be a fraction. To allow this, disable '{1}' in UOM {3}.",预留数量 {0} 不允许有小数，要允许小数请在单位 {3} 主数据中取消勾选 {1}
 From Voucher Detail No,源单据明细ID
 Get Allocations,获取已核销明细
 Unlinked,已取消关联
@@ -17264,7 +17264,7 @@ Billed Hours (B),已开票工时(B)
 Non-Billed Hours (NB),未开票工时(NB)
 Untracked Hours (U),未登记工时(U)
 % Utilization (B + NB) / T,% 利用率 (B + NB) / T
-% Utilization (B / T),,% 利用率 (B / T)
+% Utilization (B / T),% 利用率 (B / T)
 Avg Utilization,平均利用率
 Avg Utilization (Billed Only),平均利用率(已开票)
 Total Non-Billed Hours,总未开票工时
@@ -17448,3 +17448,14 @@ State/Province,省/市/自治州
 Incoming Bills (Purchase Invoice),采购发票
 Outgoing Bills (Sales Invoice),销售发票
 Select the Bank Account to reconcile.,选择银行户头
+Protect Attached Files,保护上传的附件（文件）
+Users are only able to delete attached files if the document is either in draft or if the document is canceled and they are also able to delete the document.,仅限用户有单据删除权限且单据在草稿或已取消状态下删除上传的附件
+Enforce Time Logs,生产任务单实际工时强制填写开始与结束时间
+Enabling this checkbox will force each Job Card Time Log to have From Time and To Time,勾选后，生产任务单实际工时强制填写开始与结束时间
+Accounts Receivable / Payable Tuning,应收/应付报表性能优化
+Data Fetch Method,数据获取方式
+Buffered Cursor,缓存游标
+UnBuffered Cursor,非缓存游标
+Legacy Fields,旧系统字段
+Automatically Add Taxes from Taxes and Charges Template,自动从税费模板添加税项
+"If no taxes are set, and Taxes and Charges Template is selected, the system will automatically apply the taxes from the chosen template.",如果尚无税费明细且选择了税费模板，系统自动从选择的税费模板添加税明细

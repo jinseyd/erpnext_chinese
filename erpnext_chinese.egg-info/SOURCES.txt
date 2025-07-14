@@ -34,6 +34,7 @@ erpnext_chinese/fixtures/property_setter.json
 erpnext_chinese/public/erpnext_chinese.bundle.js
 erpnext_chinese/public/dist/js/erpnext_chinese.bundle.LMFB6G5F.js
 erpnext_chinese/public/images/erpnext_chinese-logo.png
+erpnext_chinese/public/images/erpnext_chinese.svg
 erpnext_chinese/templates/__init__.py
 erpnext_chinese/templates/pages/__init__.py
 erpnext_chinese/templates/pages/__pycache__/__init__.py
