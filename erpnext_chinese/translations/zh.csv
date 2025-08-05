@@ -13863,7 +13863,7 @@ Stock Entry has been already created against this Pick List,该拣货单的物�
 Stock Ledger ID,物料凭证号
 Stock Uom,库存单位
 Stock Value ({0}) and Account Balance ({1}) are out of sync for account {2} and it's linked warehouses.,库存金额 ({0}) 与仓库相关科目 {2} 的会计账面余额 ({1}) 不一致 
-Stock quantity to start the Procedure is not available in the Warehouse {0}. Do you want to record a Stock Entry?,
+Stock quantity to start the Procedure is not available in the Warehouse {0}. Do you want to record a Stock Entry?,仓库 {0} 库存不足，无法开始工序。要创建库存条目吗？
 Stock Balance Report,库存余额报表
 Total Delivered Amount,总出货金额
 Total Assets,总资产
@@ -16102,7 +16102,7 @@ Revaluation Journals,汇率重估日记账凭证
 "Percentage you are allowed to sell beyond the Blanket Order quantity.",允许订单数量超过框架订单数量的%
 Disable Signups on site. New users will have to be manually registered by system managers.,本站点不启用自助注册，须管理员手工创建用户账号
 Login Page,登录页
-"Link that is the website home page. Standard Links (home, login, products, blog, about, contact)",
+"Link that is the website home page. Standard Links (home, login, products, blog, about, contact)","指向网站首页的链接。标准链接（例如：首页、登录、产品、博客、关于、联系）"
 Footer Details,页脚详情
 Custom Footer,自定义页脚
 "Footer ""Powered By""","页脚""技术支持""信息"
@@ -17113,7 +17113,7 @@ Display Images,显示图片
 Image Alternative Text,图片文字
 On Backorder,可无库存下订单
 Stock Information,库存信息
-Indicate that Item is available on backorder and not usually pre-stocked,
+Indicate that Item is available on backorder and not usually pre-stocked,允许缺货下单（非预备库存物料）
 Display Information,显示信息
 Short Description for List View,列表界面短描述
 Short Website Description,网站短描述
@@ -17239,8 +17239,8 @@ Maximum Leave Allocation Allowed,最大允许天数
 Maximum Consecutive Leaves Allowed,最大连休天数
 Is Partially Paid Leave,未休完需计发工资
 Allow Over Allocation,允许超分配
-"These leaves are holidays permitted by the company however, availing it is optional for an Employee.",
-Allows allocating more leaves than the number of days in the allocation period.,
+"These leaves are holidays permitted by the company however, availing it is optional for an Employee.","此类假期为公司批准的假日，但员工可自行选择是否休假。"
+Allows allocating more leaves than the number of days in the allocation period.,允许分配的假期天数超过该分配周期内的总天数。
 Maximum Encashable Leaves,最大可折现休假天数
 Non-Encashable Leaves,不可折现休假天数
 "Indicates the number of leaves that cannot be encashed from the leave balance. E.g. with a leave balance of 10 and 4 Non-Encashable Leaves, you can encash 6, while the remaining 4 can be carried forward or expired",不允许折现天数，如结余10天，4天不允许折现，则6天可折现，4天可结转到下一期或到期失效
@@ -17373,7 +17373,7 @@ Mark Auto Attendance on Holidays,允许假期内自动考勤
 Bulk Shift Assign,批量分派班次
 Use the new Print Format Builder,启用新打印格式编辑器
 "Only 'Payment Entries' made against this advance account are supported.",仅支持收付款凭证中使用此科目
-"Allow Internal Transfers at Arm's Length Price",
+"Allow Internal Transfers at Arm's Length Price","允许按正常交易价格进行内部转移。"
 "If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate.","如勾选，在内部调拨中物料单价将不会根据成本价调整，但会计核算仍将使用成本价。"
 Issue,资产发出,Asset Movement
 Receipt,资产收到,Asset Movement
