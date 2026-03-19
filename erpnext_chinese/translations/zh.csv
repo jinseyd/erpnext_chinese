@@ -42,7 +42,7 @@ of,/
 06-Finalization of Provisional assessment,06-定期评估
 07-Others,07，其他
 0 is highest,0是最高的
-"Permissions at level 0 are Document Level permissions, i.e. they are primary for access to the document.",0级权限是单据级的权限，也就是说，它们是主要用于访问文件。
+"Permissions at level 0 are Document Level permissions, i.e. they are primary for access to the document.","0级权限是单据级权限，也是访问该单据的基础权限。"
 Set 0 for no limit,0表示不限数量
 Enter 0 to waive limit,0表示不限次数
 Oct,10
@@ -87,7 +87,7 @@ Jul,07
 Aug,08
 90-Above,90以上
 Sep,09
-"<h4>Default Template</h4><p>Uses <a href=""http://jinja.pocoo.org/docs/templates/"">Jinja Templating</a> and all the fields of Address (including Custom Fields if any) will be available</p><pre><code>{{ address_line1 }}&lt;br&gt;{% if address_line2 %}{{ address_line2 }}&lt;br&gt;{% endif -%}{{ city }}&lt;br&gt;{% if state %}{{ state }}&lt;br&gt;{% endif -%}{% if pincode %} PIN:  {{ pincode }}&lt;br&gt;{% endif -%}{{ country }}&lt;br&gt;{% if phone %}Phone: {{ phone }}&lt;br&gt;{% endif -%}{% if fax %}Fax: {{ fax }}&lt;br&gt;{% endif -%}{% if email_id %}Email: {{ email_id }}&lt;br&gt;{% endif -%}</code></pre>","<H4>默认模板</ H4>  <p> 使用<a  Jinja href=""http://jinja.pocoo.org/docs/templates/"">模板</A>和地址的所有字段（包括自定义字段如果有的话）将可</ P>  <前> <代码> {{address_line1}}＆LT; BR＆GT;  {％，如果address_line2％} {{address_line2}}＆LT; BR＆GT; { ENDIF％ - ％}  {{城市}}＆LT; BR＆GT;  {％，如果状态％} {{状态}}＆LT; BR＆GT; {％ENDIF - ％} {％，如果PIN代码％} PIN：{{PIN码}}＆LT; BR＆GT; {％ENDIF - ％}  {{国家}}＆LT; BR＆GT;  {％，如果电话％}电话：{{电话}}＆LT; BR＆GT; { ％ENDIF - ％}  {％，如果传真％}传真：{{传真}}＆LT; BR＆GT; {％ENDIF - ％}  {％，如果email_id％}电子邮件：{{email_id}}＆LT; BR＆GT {％ENDIF - ％}  </代码> </ PRE>"
+"<h4>Default Template</h4><p>Uses <a href=""http://jinja.pocoo.org/docs/templates/"">Jinja Templating</a> and all the fields of Address (including Custom Fields if any) will be available</p><pre><code>{{ address_line1 }}&lt;br&gt;{% if address_line2 %}{{ address_line2 }}&lt;br&gt;{% endif -%}{{ city }}&lt;br&gt;{% if state %}{{ state }}&lt;br&gt;{% endif -%}{% if pincode %} PIN:  {{ pincode }}&lt;br&gt;{% endif -%}{{ country }}&lt;br&gt;{% if phone %}Phone: {{ phone }}&lt;br&gt;{% endif -%}{% if fax %}Fax: {{ fax }}&lt;br&gt;{% endif -%}{% if email_id %}Email: {{ email_id }}&lt;br&gt;{% endif -%}</code></pre>","<h4>默认模板</h4><p>使用 <a href="http://jinja.pocoo.org/docs/templates/">Jinja 模板</a>，地址中的所有字段（包括自定义字段）都将可用。</p><pre><code>{{ address_line1 }}<br>{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}{{ city }}<br>{% if state %}{{ state }}<br>{% endif -%}{% if pincode %} PIN:  {{ pincode }}<br>{% endif -%}{{ country }}<br>{% if phone %}电话: {{ phone }}<br>{% endif -%}{% if fax %}传真: {{ fax }}<br>{% endif -%}{% if email_id %}邮箱: {{ email_id }}<br>{% endif -%}</code></pre>"
 <b>{0}</b> has been successfully unsubscribed from this mailing list.,<b>{0}</b>已成功地从这个邮件列表退订。
 Customizations for <b>{0}</b> exported to:<br>{1},<b>{0}的</b>自定义已导出到： <br> {1}
 <b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will generate a password like SAL-Jane-1972,<b>示例：</b> SAL- {first_name}  -  {date_of_birth.year} <br>这将生成一个像SAL-Jane-1972的密码
@@ -96,7 +96,7 @@ Customizations for <b>{0}</b> exported to:<br>{1},<b>{0}的</b>自定义已导�
 <p>Aggregate group of <b>Items</b> into another <b>Item</b>. This is useful if you are bundling a certain <b>Items</b> into a package and you maintain stock of the packed <b>Items</b> and not the aggregate <b>Item</b>.</p>
 <p>The package <b>Item</b> will have <code>Is Stock Item</code> as <b>No</b> and <code>Is Sales Item</code> as <b>Yes</b>.</p>
 <h4>Example:</h4>
-<p>If you are selling Laptops and Backpacks separately and have a special price if the customer buys both, then the Laptop + Backpack will be a new Product Bundle Item.</p>",<h3>套件</h3><p>将一组<b>物料</b>组合成另一个<b>套件物料</b>.适用于套件包含的物料属于库存物料，套件本身只是用于销售，在物料主数据中勾选<code>允许销售</code>，不勾选<code>允许库存</code></p><h4>比如:</h4><p>你单独出售笔记本电脑和电脑包，希望给同时购买笔记本电脑和电脑包的客户特别的优惠，就可以将笔记本电脑和电脑包组合成一个套件</p>
+<p>If you are selling Laptops and Backpacks separately and have a special price if the customer buys both, then the Laptop + Backpack will be a new Product Bundle Item.</p>","<h3>关于套件</h3><p>将一组<b>物料</b>打包成另一个<b>套件物料</b>。当您将某些<b>物料</b>打包销售，且只管理被打包<b>物料</b>的库存，而不管理套件本身库存时，此功能非常有用。</p><p>套件<b>物料</b>的属性应设为<code>允许库存</code>为<b>否</b>，<code>允许销售</code>为<b>是</b>。</p><h4>例如：</h4><p>如果您分别销售笔记本电脑和背包，并为同时购买两者的客户提供特价，那么“笔记本电脑+背包”就可以创建一个新的套件物料。</p>"
 <p>No results found for '{0}' in Global Search</p>,<p>全局检索关键字 '<b>{0}</b>' 未找到匹配资料</p>
 <p>No results found for '</p>,<p>找不到符合条件的结果</p>
 A+,A +
@@ -360,7 +360,7 @@ IBAN,IBAN
 IBAN is not valid,IBAN无效
 ID,ID
 Idx,IDX
-ID field is required to edit values using Report. Please select the ID field using the Column Picker,ID字段是必须的编辑使用报表值。使用列选择器请选择ID字段
+ID field is required to edit values using Report. Please select the ID field using the Column Picker,使用报表编辑数据时，必须包含ID字段。请使用列选择器添加ID字段。
 IFSC Code,IFSC代码
 IGST Account,IGST科目
 IGST Amount,IGST金额
@@ -981,7 +981,7 @@ Cent,一分钱
 January,1月
 JAN,01
 You can only upload upto 5000 records in one go. (may be less in some cases),一次最多只能上传5000条记录(某些情况下可能更少)
-"As a best practice, do not assign the same set of permission rule to different Roles. Instead, set multiple Roles to the same User.",一种最佳的做法是，不要给不同的角色分派同样的权限规则，而是向同一用户分派多个角色。
+"As a best practice, do not assign the same set of permission rule to different Roles. Instead, set multiple Roles to the same User.","最佳实践是：不要为不同的角色分配相同的权限规则，而应为同一用户分配多个角色。"
 July,7月
 JUL,07
 Ternary Plot,三元剧情
@@ -1653,7 +1653,7 @@ Tax Withholding Category,代扣税款类别
 Agent,代理商
 Code,代码
 Code {0} already exist,代码{0}已经存在
-Represents the states allowed in one document and role assigned to change the state.,代表一个单据和角色分派给改变国家允许的状态。
+Represents the states allowed in one document and role assigned to change the state.,定义了单据的可用状态，以及允许改变状态的角色。
 Represents Company,代表公司
 Token,令牌
 Token is missing,令牌丢失
@@ -1717,13 +1717,13 @@ Rate at which Price list currency is converted to customer's base currency,价�
 Price List (Auto created),价格表（自动创建）
 Rate: {0},价格：{0}
 Any other details,补充信息
-"Any other remarks, noteworthy effort that should go in the records.",任何其他言论，值得一提的努力，应该在记录中。
+"Any other remarks, noteworthy effort that should go in the records.","任何其他备注，或值得记录的特殊情况。"
 Anytime,任何时候
 Task,任务
 Tasks,任务
 Task ID,任务ID
-"The task {0}, that you assigned to {1}, has been closed.",任务{0}，您分派给{1}，已关闭。
-"The task {0}, that you assigned to {1}, has been closed by {2}.",任务{0}，您分派给{1}，已被关闭{2}。
+"The task {0}, that you assigned to {1}, has been closed.","您分派给{1}的任务{0}已关闭。"
+"The task {0}, that you assigned to {1}, has been closed by {2}.","您分派给{1}的任务{0}已被{2}关闭。"
 Task Name,任务名称
 Task Completion,任务完成
 Timesheet for tasks.,任务工时表。
@@ -1836,12 +1836,12 @@ Session Defaults,会话默认值
 Fax,传真
 Valuation type charges can not marked as Inclusive,估值类型罪名不能标记为包容性
 Spouse,伴侣
-Seems API Key or API Secret is wrong !!!,似乎API密钥或API的秘密是错误的！
+Seems API Key or API Secret is wrong !!!,API Key或API Secret（密钥）似乎不正确！！！
 Seems ldap is not installed on system.,似乎ldap没有安装在系统上。
-Seems ldap is not installed on system.<br>Guidelines to install ldap dependancies and python package,似乎ldap没有安装在系统上。 <br>ldap依赖和python包的安装指引
-"Seems issue with server's razorpay config. Don't worry, in case of failure amount will get refunded to your account.",似乎与服务器的配置razorpay问题。别担心，在失败量情况将得到退还到您的账户。
-Seems token you are using is invalid!,似乎你使用的令牌是无效的！
-Seems Publishable Key or Secret Key is wrong !!!,似乎可发布的密钥或秘密密钥错误！
+Seems ldap is not installed on system.<br>Guidelines to install ldap dependancies and python package,系统似乎未安装LDAP。<br>安装LDAP依赖项和Python包的指引
+"Seems issue with server's razorpay config. Don't worry, in case of failure amount will get refunded to your account.","服务器的Razorpay配置似乎有问题。别担心，如果支付失败，金额会自动退还到您的账户。"
+Seems token you are using is invalid!,您使用的Token（凭证）似乎无效！
+Seems Publishable Key or Secret Key is wrong !!!,Publishable Key（可发布密钥）或Secret Key（私钥）似乎不正确！！！
 Position,位置
 Low,低
 Lower Income,低收入
@@ -1892,9 +1892,9 @@ You are not allowed to update this Web Form Document,你不允许更新此Web表
 You cannot unset 'Read Only' for field {0},你不能为字段{0}取消“只读”设置
 You cannot like something that you created,你不能喜欢你自己创建的资料
 You cannot give review points to yourself,你不能送出评审点数给自己
-You seem to have written your name instead of your email. \				Please enter a valid email address so that we can get back.,你似乎写了你的名字，而不是你的电子邮件。 \请输入有效的电子邮件地址，以便我们可以联络您。
+You seem to have written your name instead of your email. \				Please enter a valid email address so that we can get back.,您似乎输入了姓名而非邮箱地址，请输入有效的邮箱地址以便我们与您联系。
 You added ,你加了
-"You can define all the tasks which need to carried out for this crop here. The day field is used to mention the day on which the task needs to be carried out, 1 being the 1st day, etc.. ",你可以在这里定义所有需要进行的作业。日场是用来提及任务需要执行的日子，1日是第一天等。
+"You can define all the tasks which need to carried out for this crop here. The day field is used to mention the day on which the task needs to be carried out, 1 being the 1st day, etc.. ","您可以在此定义该作物需要执行的所有任务。‘日期’字段用于指定任务执行的具体日期，例如：1代表第一天，以此类推。"
 You can find things by asking 'find orange in customers',你可以问诸如find orange in customers来找东西
 You lost some energy points,你失去了一些能量点
 Hello,你好
@@ -1907,7 +1907,7 @@ Do you want to update attendance?<br>Present: {0}\					<br>Absent: {1},你想更
 Do you want to update attendance?Present: {0}\					Absent: {1},你想更新考勤？ <br>出勤：{0} \ <br>缺勤：{1}
 Do you want to notify all the customers by email?,你想通过电子邮件通知所有的客户？
 You are not allowed to create columns,你无权创建列
-"You are selecting Sync Option as ALL, It will resync all \				read as well as unread message from server. This may also cause the duplication\				of Communication (emails).",你是所有选择同步选项，它会重新同步所有\读取以及未读邮件从服务器。这也可能会导致通信（电子邮件）的重复数据删除\。
+"You are selecting Sync Option as ALL, It will resync all \				read as well as unread message from server. This may also cause the duplication\				of Communication (emails).","您选择了‘全部同步’，这将从服务器重新同步所有已读和未读的邮件，并可能导致邮件通信记录重复。"
 What do you need help with?,你有什么需要帮助的？
 What do you need help with?,你有什么需要帮助的？
 You are not authorized to add or update entries before {0},你未被授权在会计设置->会计关账 中设置的冻结记账截止日 {0} 前新增或变更会计凭证。
@@ -1969,7 +1969,7 @@ e.g. replies@yourcomany.com. All replies will come to this inbox.,例如replies@
 e.g. smtp.gmail.com,例如smtp.gmail.com
 "e.g. ""Build tools for builders""",例如“建筑工人的建筑工具！”
 "e.g. ""Support"", ""Sales"", ""Jerry Yang""",例如“支持“，”销售“，”杨杰“
-For example if you cancel and amend INV004 it will become a new document INV004-1. This helps you to keep track of each amendment.,例如取消和修订INV004将成为一个新的单据INV004-1，这有利于你跟踪每次修订。
+For example if you cancel and amend INV004 it will become a new document INV004-1. This helps you to keep track of each amendment.,例如，如果您取消并修订了INV004，它将生成一个新版本的单据INV004-1。这方便您跟踪每一次的修订记录。
 e.g Adjustments for:,例如调整：
 Example:,例如：
 e.g.:,例如：
@@ -2012,7 +2012,7 @@ Bills raised by Suppliers.,供应商开出的发票
 Supplier Quotation,供应商报价
 Supplier Quotation {0} created,供应商报价{0}创建
 Supplier Quotation Item,供应商报价明细
-TRIPLICATE FOR SUPPLIER,供应商提供服务
+TRIPLICATE FOR SUPPLIER,供应商联
 Supplier database.,供应商数据库。
 Templates of supplier standings.,供应商榜单模板。
 Supplier Items,供应商物料
@@ -2086,7 +2086,7 @@ Saving...,保存...
 Save API Secret: ,保存API密码：
 Saving {0},保存{0}
 Before Save,保存前
-chapters/chapter_nameleave blank automatically set after saving chapter.,保存协会后自动设置协会名称。
+chapters/chapter_nameleave blank automatically set after saving chapter.,章节名称留空，保存章节后自动设置。
 After Save,保存后
 Workflow will start after saving.,保存后的工作流将启动。
 Net Pay (in words) will be visible once you save the Salary Slip.,保存工资单后会显示实付金额(大写)。
@@ -2189,9 +2189,9 @@ Preference,偏好
 Downtime,停机
 Failure Date,停机日期
 Stop,停止
-"Stopped Production Order cannot be cancelled, Unstop it first to cancel",停止生产订单无法取消，首先Unstop它取消
+"Stopped Production Order cannot be cancelled, Unstop it first to cancel","已停止的生产订单无法取消，请先恢复工单状态再执行取消操作。"
 Stop Birthday Reminders,停止生日提醒
-"Stopped Work Order cannot be cancelled, Unstop it first to cancel",停止的工单不能取消，先取消停止
+"Stopped Work Order cannot be cancelled, Unstop it first to cancel","已停止的工单无法取消，请先恢复工单状态再执行取消操作。"
 Ends On,停止联络日期
 Complete Job,停止计时
 Health Details,健康信息
@@ -2443,7 +2443,7 @@ Close,关闭
 Close the POS,关闭POS
 volume-off,关闭声音
 Close Condition,关闭条件
-Closed order cannot be cancelled. Unclose to cancel.,关闭的定单不能被取消。 Unclose取消。
+Closed order cannot be cancelled. Unclose to cancel.,已关闭的订单无法取消，请先重开订单再执行取消操作。
 Closed Documents,已关闭单据类型
 folder-close,关闭目录
 Closing Account {0} must be of type Liability / Equity,关闭科目{0}的类型必须是负债/权益
@@ -3104,7 +3104,7 @@ Agreement Details,协议细节
 End Date of Agreement can't be less than today.,协议结束日期不能早于今天。
 Single Transaction Threshold,单一交易阈值
 Single Correct Answer,单一正确答案
-"Single for results which require only a single input, result UOM and normal value <br>Compound for results which require multiple input fields with corresponding event names, result UOMs and normal values<br>Descriptive for tests which have multiple result components and corresponding result entry fields. <br>Grouped for test templates which are a group of other test templates.<br>No Result for tests with no results. Also, no Lab Test is created. e.g.. Sub Tests for Grouped results.",单一的结果只需要一个输入，结果UOM和正常值<br>对于需要具有相应事件名称的多个输入字段的结果的化合物，结果为UOM和正常值<br>具有多个结果组件和相应结果输入字段的测试的描述。 <br>分组为一组其他测试模板的测试模板。 <br>没有没有结果的测试结果。此外，没有创建化验。例如。分组测试的子测试。
+"Single for results which require only a single input, result UOM and normal value <br>Compound for results which require multiple input fields with corresponding event names, result UOMs and normal values<br>Descriptive for tests which have multiple result components and corresponding result entry fields. <br>Grouped for test templates which are a group of other test templates.<br>No Result for tests with no results. Also, no Lab Test is created. e.g.. Sub Tests for Grouped results.","<b>单一型</b>：适用于仅需单个输入、结果单位和正常值的结果。<br><b>复合型</b>：适用于需要多个输入字段，且每个字段都有对应事件名、结果单位和正常值的结果。<br><b>描述型</b>：适用于包含多个结果组成部分及对应录入字段的测试。<br><b>分组型</b>：适用于由多个其他测试模板组合而成的测试模板。<br><b>无结果型</b>：适用于没有结果的测试，此类型不会创建化验单。例如：组合型测试中的子测试。"
 Single Tier Program,单一等级积分方案
 For individual supplier,单个供应商
 Single Post (article).,单个帖子（文章）。
@@ -8102,7 +8102,7 @@ Normal Test Items,正常测试物料
 Correct,正确
 Is Correct,正确答案
 This {0} conflicts with {1} for {2} {3},此{0}冲突{1}在{2} {3}
-"This is the default UOM used for items and Sales orders. The fallback UOM is ""Nos"".","此为物料和销售订单的默认计量单位。如果不设置则系统默认计量单位是""""个""""。"
+"This is the default UOM used for items and Sales orders. The fallback UOM is ""Nos"".","这是物料和销售订单的默认计量单位。备用单位是‘个’。"
 Series List for this Transaction,本单据类型单据编号模板清单
 Warehouse can not be deleted as stock ledger entry exists for this warehouse.,此仓库已有物料凭证，无法删除。
 Price Not UOM Dependent,此价格适用所有单位
@@ -10133,7 +10133,7 @@ Section Header,节标题
 Section Heading,节标题
 Section Leader,节标题
 Throttled,节流
-"To merge, following properties must be same for both items",若要合并，两个物料的以下属性必须相同
+"To merge, following properties must be same for both items","如需合并，两个物料的以下属性必须相同。"
 Hero Image,英雄形象
 Range,范围
 Scope,范围
@@ -13863,7 +13863,7 @@ Stock Entry has been already created against this Pick List,该拣货单的物�
 Stock Ledger ID,物料凭证号
 Stock Uom,库存单位
 Stock Value ({0}) and Account Balance ({1}) are out of sync for account {2} and it's linked warehouses.,库存金额 ({0}) 与仓库相关科目 {2} 的会计账面余额 ({1}) 不一致 
-Stock quantity to start the Procedure is not available in the Warehouse {0}. Do you want to record a Stock Entry?,
+Stock quantity to start the Procedure is not available in the Warehouse {0}. Do you want to record a Stock Entry?,仓库 {0} 库存不足，无法开始工序。要创建库存条目吗？
 Stock Balance Report,库存余额报表
 Total Delivered Amount,总出货金额
 Total Assets,总资产
@@ -13947,10 +13947,10 @@ Get Payments from,选付款
 Item {0} is not active,物料已禁用
 Journal Entry Template Account,日记账凭证模板科目
 Journal Entry Type,日记账分录类型
-"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in supplier master.",此设置可防止未创建采购订单的情况下创建采购入库或采购发票，可在供应商主数据中覆盖此设置
-"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in supplier master.",此设置可防止未创建采购入库的情况下创建采购发票，可在供应商主数据中覆盖此设置
-"If ticked, multiple materials can be used for a single Work Order. This is useful if one or more time consuming products are being manufactured.",如勾选，一个工单可使用多个物料，此设置针对一个或多个长周期产品生产
-"If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials.",如勾选，物料清单成本会基于其原材料的成本价/价格表主数据/最新采购价自动更新
+"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in supplier master.","如果勾选此项，系统将禁止在没有采购订单的情况下创建采购入库或采购发票。此设置可在特定供应商主数据中通过勾选‘允许无采购订单创建采购发票’来覆盖。"
+"If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in supplier master.","如果勾选此项，系统将禁止在没有采购入库的情况下创建采购发票。此设置可在特定供应商主数据中通过勾选‘允许无采购入库创建采购发票’来覆盖。"
+"If ticked, multiple materials can be used for a single Work Order. This is useful if one or more time consuming products are being manufactured.","如勾选，单个工单可耗用多种物料。这在生产耗时较长的产品时非常有用。"
+"If ticked, the BOM cost will be automatically updated based on Valuation Rate / Price List Rate / last purchase rate of raw materials.","如勾选，物料清单成本将根据其原材料的最新成本价、价格表或最近采购价自动更新。"
 Full Width,全宽
 Dynamic Template,动态模板
 Add Custom Tags,添加自定义标签
@@ -14482,8 +14482,8 @@ Sets the current page as default for all users,设为所有用户默认工作区
 Transactions Settings,业务交易设置
 Tax Settings,税设置
 Create Ledger Entries for Change Amount,为找零生成日记账凭证
-"If enabled, ledger entries will be posted for change amount in POS transactions",如勾选，则为POS交易中的找零自动生成日记账凭证
-"Role Allowed to Over Bill ",允许超发票容差创建发票的角色
+"If enabled, ledger entries will be posted for change amount in POS transactions","如勾选，系统将为POS交易中的找零金额自动生成会计分录。"
+"Role Allowed to Over Bill ","允许超额开票的角色"
 Period Closing Settings,期末结账设置
 Update Settings,更新设置
 Role Allowed to Override Stop Action,可忽略预算设置的停止控制的角色
@@ -14510,7 +14510,7 @@ Bottom Right,底部右侧
 Mid Center,正中
 {0} {1}: Account {2} is a Group Account and group accounts cannot be used in transactions,{0} {1}:  {2} 是组类型科目，不能用于业务交易中
 Considered In Paid Amount,含在付款金额中
-"If checked, the tax amount will be considered as already included in the Paid Amount in Payment Entry",如勾选，收付款凭证中付款金额就含税
+"If checked, the tax amount will be considered as already included in the Paid Amount in Payment Entry","如勾选，则视为付款金额已包含税费。"
 Minimum Net Rate,最低净价
 Maximum Net Rate,最高净价
 Bank Account Name,银行户头
@@ -14988,9 +14988,9 @@ Just like the supplier, let's quickly create a customer.","## 谁是客户
 每个客户须有(唯一识别)客户号，可在销售(模块)设置中选择客户号生成方式：客户名或自动流水码"
 "DocTypes can not be modified, please use {0} instead",单据类型不能修改，请通过{0}修改
 This site is running in developer mode. Any change made here will be updated in code.,本站点已设置开发者模式参数，单据修改会同步到代码中
-"If you just want to customize for your site, use {0} instead.",如果只是定制，请通过{0}修改
+"If you just want to customize for your site, use {0} instead.","如果只是为您的站点进行定制，请使用 {0}。"
 The value {0} is already assigned to an existing Item {1}.,现有物料{1}已使用此属性值{0}。,
-"To still proceed with editing this Attribute Value, enable {0} in Item Variant Settings.",如需修改属性值，请在库存模块的“物料多规格设置”中勾选 允许重命名属性值。,
+"To still proceed with editing this Attribute Value, enable {0} in Item Variant Settings.","如需继续编辑此属性值，请在‘物料多规格设置’中启用‘{0}’。"
 Show Inclusive Tax in Print,打印含税价中的税明细,
 Unlink Advance Payment on Cancellation of Order,取消订单时移除关联的预付款,
 Restore Asset,恢复资产
@@ -15486,7 +15486,7 @@ Recent Orders,最近订单
 Validate Stock on Save,保存时检查库存
 Write Off Limit,抹零限额
 Auto write off precision loss while consolidation,合并时自动圆整抹零
-"If enabled, the consolidated invoices will have rounded total disabled",如勾选合并后的发票禁用小数精度尾差
+"If enabled, the consolidated invoices will have rounded total disabled","如勾选，合并后的发票总额将不做四舍五入处理。"
 POS Search Fields,POS机搜索字段
 POS Field,POS机字段,
 Page Size,纸张大小
@@ -15525,10 +15525,10 @@ Can only change to/from Autoincrement naming rule when there is no data in the d
 Sort Options,按选项值排序
 Ignore Available Stock,忽略可用数量
 Consolidate Sales Order Items,合并物料
-"If enabled, the system won't create material requests for the available items.","勾选后，系统不会为有可用数量的物料创建物料需求"
-"If this checkbox is enabled, then the system won't run the MRP for the available sub-assembly items.","勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除"
-"If this checkbox is enabled, then the system won’t run the MRP for the available sub-assembly items.","勾选后，计划数量=需求-可用库存，可用足够时子装配件被删除"
-"No Work Orders were created",无待创建的生产工单
+"If enabled, the system won't create material requests for the available items.","如果勾选，系统不会为有可用数量的物料创建物料需求。"
+"If this checkbox is enabled, then the system won't run the MRP for the available sub-assembly items.","如果勾选此项，系统将不会为可用的子装配件运行物料需求计划（MRP）。"
+"If this checkbox is enabled, then the system won’t run the MRP for the available sub-assembly items.","如果勾选此项，系统将不会为可用的子装配件运行物料需求计划（MRP）。"
+"No Work Orders were created","未创建任何工单。"
 Get Outstanding Orders,选未关闭订单
 "{0} {1} is associated with {2}, but Party Account is {3}", 待付款源单据 {0} {1} 科目 {2} 与当前收付款凭证科目 {3} 不一致
 Is Group Warehouse,是父仓库
@@ -15915,7 +15915,7 @@ Auto follow documents that are assigned to you,自动关注分派给你的单据
 Auto follow documents that are shared with you,自动关注分享给你的单据
 Reserved Stock,已预留库存
 Show Disabled Warehouses,显示已禁用仓库
-"If enabled, the system will create material requests even if the stock exists in the 'Raw Materials Warehouse'.","如勾选，即使'原材料仓'有库存系统也会创建物料需求"
+"If enabled, the system will create material requests even if the stock exists in the 'Raw Materials Warehouse'.","如果勾选，即使'原材料仓'有库存，系统也会创建物料需求。"
 Helpdesk,服务台
 Print document,打印单据
 Form,表单
@@ -16102,7 +16102,7 @@ Revaluation Journals,汇率重估日记账凭证
 "Percentage you are allowed to sell beyond the Blanket Order quantity.",允许订单数量超过框架订单数量的%
 Disable Signups on site. New users will have to be manually registered by system managers.,本站点不启用自助注册，须管理员手工创建用户账号
 Login Page,登录页
-"Link that is the website home page. Standard Links (home, login, products, blog, about, contact)",
+"Link that is the website home page. Standard Links (home, login, products, blog, about, contact)","指向网站首页的链接。标准链接（例如：首页、登录、产品、博客、关于、联系）"
 Footer Details,页脚详情
 Custom Footer,自定义页脚
 "Footer ""Powered By""","页脚""技术支持""信息"
@@ -16620,7 +16620,7 @@ Use Serial No / Batch Fields,启用明细行批号与序列号字段
 "On submission of the stock transaction, system will auto create the Serial and Batch Bundle based on the Serial No / Batch fields.",勾选后物料移动相关单据提交时系统会基于明细行中的批号与序列号自动创建序列号/批号主数据
 Do Not Update Serial / Batch on Creation of Auto Bundle,自动创建序列号/批号时不同步明细行上的序列号与批号字段
 "If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial 
- / Batch Bundle. ","如勾选，物料移动相关单据自动创建序列号/批号时不同步明细行的序列号与批号字段"
+ / Batch Bundle. ","如勾选，在自动创建序列号/批号档案时，不更新库存交易中的序列号/批号字段值。"
 Scan Serial No,扫序列号
 "Don't encode HTML tags like &lt;script&gt; or just characters like &lt; or &gt;, as they could be intentionally used in this field","允许字段内容为原生html，即无须对&lt;script&gt;这样的 HTML 标签或者&lt; 或 &gt; 这样的字符进行编码/转义如& lt;"
 "Naming Options:
@@ -16705,9 +16705,9 @@ Crop,裁切
 "Enabling this option will allow you to record - <br><br> 1. Advances Received in a <b>Liability Account</b> instead of the <b>Asset Account</b><br><br>2. Advances Paid in an <b>Asset Account</b> instead of the <b> Liability Account</b>","勾选后，收到预付款记负债而非资产科目，支付预付款记资产而非负债科目"
 "Naming Options:
 <ol><li><b>field:[fieldname]</b> - By Field</li><li><b>autoincrement</b> - Uses Databases' Auto Increment feature</li><li><b>naming_series:</b> - By Naming Series (field called naming_series must be present)</li><li><b>Prompt</b> - Prompt user for a name</li><li><b>[series]</b> - Series by prefix (separated by a dot); for example PRE.#####</li>
-<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>","自动编号方式：
- <ol><li> <b>field：[fieldname]</b> - 基于字段值</li><li> <b>naming_series：</b> - 基于单据编号模板（必须有naming_series字段</li><li> <b>Prompt</b> - 手工输入</li><li> <b>[series]</b> - 带前缀以点(.)分隔的编号模板;如PRE.##### 
- </li><li> <b>format：多字段加流水号组合，示例 -  {MM}其它固定文字{字段1}-{字段2}-{#####}</b> - 替换花括号内的代表日期的字串（DD，MM，YY）及具体字段名或单据编号模板，花括号外可以使用任何固定字符。 </li></ol>"
+<li><b>format:EXAMPLE-{MM}morewords{fieldname1}-{fieldname2}-{#####}</b> - Replace all braced words (fieldnames, date words (DD, MM, YY), series) with their value. Outside braces, any characters can be used.</li></ol>","编号规则选项：
+<ol><li><b>field:[fieldname]</b> - 基于字段值</li><li><b>autoincrement</b> - 使用数据库自增序列</li><li><b>naming_series:</b> - 基于单据编号模板 (表单中必须存在`naming_series`字段)</li><li><b>Prompt</b> - 提示用户输入</li><li><b>[series]</b> - 基于前缀的序列 (以.分隔); 例如 PRE.#####</li>
+<li><b>format:示例-{MM}文本{字段1}-{字段2}-{#####}</b> - 替换花括号内的所有变量 (字段名, 日期字符(DD, MM, YY), 序列) 为其对应的值。花括号外可使用任意字符。</li></ol>"
 Drag to add state,拖拽添加状态
 Reset Changes,放弃修改
 Fit,自适应
@@ -16799,7 +16799,7 @@ Package Name,包名
 License Type,软件许可证类型
 Attach Package,添加包
 Activate,激活
-"When a parent warehouse is chosen, the system conducts stock checks against the associated child warehouses",选择父仓库时，系统检查其子仓库库存
+"When a parent warehouse is chosen, the system conducts stock checks against the associated child warehouses","选择父仓库时，系统会检查其所有子仓库的库存。"
 Use First Day of Period,所选期间的第一天
 "To begin the date range at the start of the chosen period. For example, if 'Year' is selected as the period, the report will start from January 1st of the current year.",例如期间为年，则为当年1月1号
 "A Price List is a collection of Item Prices either Selling, Buying, or both",代表一组物料的销售价，采购价
@@ -17113,7 +17113,7 @@ Display Images,显示图片
 Image Alternative Text,图片文字
 On Backorder,可无库存下订单
 Stock Information,库存信息
-Indicate that Item is available on backorder and not usually pre-stocked,
+Indicate that Item is available on backorder and not usually pre-stocked,允许缺货下单（非预备库存物料）
 Display Information,显示信息
 Short Description for List View,列表界面短描述
 Short Website Description,网站短描述
@@ -17239,8 +17239,8 @@ Maximum Leave Allocation Allowed,最大允许天数
 Maximum Consecutive Leaves Allowed,最大连休天数
 Is Partially Paid Leave,未休完需计发工资
 Allow Over Allocation,允许超分配
-"These leaves are holidays permitted by the company however, availing it is optional for an Employee.",
-Allows allocating more leaves than the number of days in the allocation period.,
+"These leaves are holidays permitted by the company however, availing it is optional for an Employee.","此类假期为公司批准的假日，但员工可自行选择是否休假。"
+Allows allocating more leaves than the number of days in the allocation period.,允许分配的假期天数超过该分配周期内的总天数。
 Maximum Encashable Leaves,最大可折现休假天数
 Non-Encashable Leaves,不可折现休假天数
 "Indicates the number of leaves that cannot be encashed from the leave balance. E.g. with a leave balance of 10 and 4 Non-Encashable Leaves, you can encash 6, while the remaining 4 can be carried forward or expired",不允许折现天数，如结余10天，4天不允许折现，则6天可折现，4天可结转到下一期或到期失效
@@ -17373,8 +17373,8 @@ Mark Auto Attendance on Holidays,允许假期内自动考勤
 Bulk Shift Assign,批量分派班次
 Use the new Print Format Builder,启用新打印格式编辑器
 "Only 'Payment Entries' made against this advance account are supported.",仅支持收付款凭证中使用此科目
-"Allow Internal Transfers at Arm's Length Price",
-"If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate.",
+"Allow Internal Transfers at Arm's Length Price","允许按正常交易价格进行内部转移。"
+"If enabled, the item rate won't adjust to the valuation rate during internal transfers, but accounting will still use the valuation rate.","如勾选，在内部调拨中物料单价将不会根据成本价调整，但会计核算仍将使用成本价。"
 Issue,资产发出,Asset Movement
 Receipt,资产收到,Asset Movement
 Transfer,资产移转,Asset Movement
@@ -17436,8 +17436,8 @@ Invalid Ledger Entries,异常总账凭证
 Recreate Stock Ledgers,重新生成物料凭证
 Allow to Make Quality Inspection after Purchase / Delivery,允许采购入库/销售出库提交后创建质检单
 Allow UOM with Conversion Rate Defined in Item,启用计量单位控制
-"If enabled, the system will allow selecting UOMs in sales and purchase transactions only if the conversion rate is set in the item master.",如勾选则采购/销售订单中仅限选择物料主数据维护了转换率的计量单位
-"Rows: {0} have 'Payment Entry' as reference_type. This should not be set manually.",第 {0} 行，源单据类型不能为收付款凭证
+"If enabled, the system will allow selecting UOMs in sales and purchase transactions only if the conversion rate is set in the item master.","如勾选，在销售和采购单据中，仅允许选择在物料主数据里设置了转换率的单位。"
+"Rows: {0} have 'Payment Entry' as reference_type. This should not be set manually.","第 {0} 行：源单据类型不应手动设置为‘收付款凭证’。"
 Distributed Discount Amount,分摊的折旧金额
 There were issues unlinking payment entry {0}.,无法取消付款凭证{0}核销,
 Send Email To Creator,发邮件给单据创建者
